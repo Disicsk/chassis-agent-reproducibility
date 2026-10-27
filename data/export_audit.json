@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "known_configuration_secret_scan": "passed on all selected source files without printing secret values",
+  "credential_pattern_scan": "passed",
+  "personal_username_path_scan": "passed",
+  "export_transformations": "none; included source and evidence bytes unchanged",
+  "excluded": [
+    "models.toml and other credentials",
+    "v1 and v2 code/results",
+    "raw project documents",
+    "reference papers",
+    "manuscripts and reviewer correspondence",
+    "unrelated development logs",
+    "__pycache__ and replay scratch outputs"
+  ],
+  "included_frozen_batches": 7,
+  "formal_runs": 252,
+  "interface_check_runs": 12,
+  "limitations": "The scan covers known local configuration secrets and selected patterns; no claim of provider-side model identity or training-data verification."
+}

@@ -1,0 +1,23 @@
+{
+  "requested": {
+    "provider": "paratera",
+    "model": "DeepSeek-V4.1-Flash",
+    "base_url": "https://llmapi.paratera.com",
+    "api_mode": "chat_completions",
+    "structured_output_mode": "json_object",
+    "allowed_response_models": [
+      "DeepSeek-V4.1-Flash"
+    ],
+    "max_output_tokens": 4096,
+    "timeout_sec": 600,
+    "retries": 1
+  },
+  "response_models": {
+    "DeepSeek-V4.1-Flash": 650
+  },
+  "system_fingerprint_counts": {
+    "None": 650
+  },
+  "provider_weight_revision": "unknown; not exposed in saved responses",
+  "internal_reasoning_configuration": "unknown; request parameters do not establish provider internals"
+}

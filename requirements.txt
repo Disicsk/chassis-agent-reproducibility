@@ -1,0 +1,2 @@
+# Python 3.12 recommended. All application and reproduction code uses the standard library.
+# No third-party Python dependencies are required.

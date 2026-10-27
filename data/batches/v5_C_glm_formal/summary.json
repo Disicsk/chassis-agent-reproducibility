@@ -1,0 +1,3388 @@
+{
+  "label": "C_glm_formal",
+  "updated_at": "2026-10-22T01:39:10.178907+00:00",
+  "completed_runs": 24,
+  "C": {
+    "runs": 24,
+    "all_stages_valid": 24,
+    "all_stages_preferred": 24,
+    "mean_requests": 9.875,
+    "reported_tokens": 1884106,
+    "infrastructure_errors": 0,
+    "by_category": {
+      "T1": [
+        8,
+        8
+      ],
+      "T2": [
+        8,
+        8
+      ],
+      "T3": [
+        8,
+        8
+      ]
+    }
+  },
+  "rows": [
+    {
+      "id": "F01_C_r1",
+      "task_id": "F01",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 18684,
+            "completion_tokens": 695,
+            "total_tokens": 19379
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 37.391,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20355,
+            "completion_tokens": 663,
+            "total_tokens": 21018
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 75.468,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 32342,
+            "completion_tokens": 1058,
+            "total_tokens": 33400
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 54.791,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 71381,
+        "completion_tokens": 2416,
+        "total_tokens": 73797
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 167.67,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "format_errors": 2,
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:14:55.401639+00:00"
+    },
+    {
+      "id": "F01_C_r2",
+      "task_id": "F01",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14383,
+            "completion_tokens": 462,
+            "total_tokens": 14845
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.219,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 26756,
+            "completion_tokens": 988,
+            "total_tokens": 27744
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.603,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23082,
+            "completion_tokens": 711,
+            "total_tokens": 23793
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.383,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 64221,
+        "completion_tokens": 2161,
+        "total_tokens": 66382
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 91.221,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:20:47.975531+00:00"
+    },
+    {
+      "id": "F02_C_r1",
+      "task_id": "F02",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 18711,
+            "completion_tokens": 717,
+            "total_tokens": 19428
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 37.875,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20188,
+            "completion_tokens": 648,
+            "total_tokens": 20836
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.233,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23780,
+            "completion_tokens": 952,
+            "total_tokens": 24732
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.199,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 62679,
+        "completion_tokens": 2317,
+        "total_tokens": 64996
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 108.319,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:10:16.417412+00:00"
+    },
+    {
+      "id": "F02_C_r2",
+      "task_id": "F02",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14328,
+            "completion_tokens": 590,
+            "total_tokens": 14918
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.305,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20353,
+            "completion_tokens": 686,
+            "total_tokens": 21039
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.494,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 24345,
+            "completion_tokens": 1008,
+            "total_tokens": 25353
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 29.827,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 59026,
+        "completion_tokens": 2284,
+        "total_tokens": 61310
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 106.65,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:32:06.387931+00:00"
+    },
+    {
+      "id": "F03_C_r1",
+      "task_id": "F03",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8706,
+            "completion_tokens": 470,
+            "total_tokens": 9176
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 33.432,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 18773,
+            "completion_tokens": 853,
+            "total_tokens": 19626
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.99,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23201,
+            "completion_tokens": 754,
+            "total_tokens": 23955
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.498,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 50680,
+        "completion_tokens": 2077,
+        "total_tokens": 52757
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 78.937,
+      "work": {
+        "computed_candidate_scenarios": 5,
+        "reused_candidate_scenarios": 4
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:30:53.420771+00:00"
+    },
+    {
+      "id": "F03_C_r2",
+      "task_id": "F03",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8698,
+            "completion_tokens": 527,
+            "total_tokens": 9225
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.066,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 19060,
+            "completion_tokens": 825,
+            "total_tokens": 19885
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 34.697,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23573,
+            "completion_tokens": 789,
+            "total_tokens": 24362
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.347,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 51331,
+        "completion_tokens": 2141,
+        "total_tokens": 53472
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 87.127,
+      "work": {
+        "computed_candidate_scenarios": 5,
+        "reused_candidate_scenarios": 4
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:08:28.022344+00:00"
+    },
+    {
+      "id": "F04_C_r1",
+      "task_id": "F04",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8704,
+            "completion_tokens": 383,
+            "total_tokens": 9087
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.795,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 18447,
+            "completion_tokens": 720,
+            "total_tokens": 19167
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.787,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22402,
+            "completion_tokens": 670,
+            "total_tokens": 23072
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.725,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 2
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 49553,
+        "completion_tokens": 1773,
+        "total_tokens": 51326
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 64.323,
+      "work": {
+        "computed_candidate_scenarios": 5,
+        "reused_candidate_scenarios": 4
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:21:52.392506+00:00"
+    },
+    {
+      "id": "F04_C_r2",
+      "task_id": "F04",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 9076,
+            "completion_tokens": 542,
+            "total_tokens": 9618
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.427,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20408,
+            "completion_tokens": 918,
+            "total_tokens": 21326
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 43.583,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 24678,
+            "completion_tokens": 898,
+            "total_tokens": 25576
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.197,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 54162,
+        "completion_tokens": 2358,
+        "total_tokens": 56520
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 79.221,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:29:34.402130+00:00"
+    },
+    {
+      "id": "F05_C_r1",
+      "task_id": "F05",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8693,
+            "completion_tokens": 472,
+            "total_tokens": 9165
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.373,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 26327,
+            "completion_tokens": 962,
+            "total_tokens": 27289
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.278,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 3
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22889,
+            "completion_tokens": 947,
+            "total_tokens": 23836
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 31.028,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 3
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 57909,
+        "completion_tokens": 2381,
+        "total_tokens": 60290
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 95.695,
+      "work": {
+        "computed_candidate_scenarios": 21,
+        "reused_candidate_scenarios": 6
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:39:05.428059+00:00"
+    },
+    {
+      "id": "F05_C_r2",
+      "task_id": "F05",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8720,
+            "completion_tokens": 540,
+            "total_tokens": 9260
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.7,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 26086,
+            "completion_tokens": 1184,
+            "total_tokens": 27270
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 85.447,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 30584,
+            "completion_tokens": 1297,
+            "total_tokens": 31881
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 48.452,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 9
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 65390,
+        "completion_tokens": 3021,
+        "total_tokens": 68411
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 149.615,
+      "work": {
+        "computed_candidate_scenarios": 18,
+        "reused_candidate_scenarios": 9
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:26:17.184411+00:00"
+    },
+    {
+      "id": "F06_C_r1",
+      "task_id": "F06",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8705,
+            "completion_tokens": 485,
+            "total_tokens": 9190
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.356,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 33040,
+            "completion_tokens": 1019,
+            "total_tokens": 34059
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 104.71,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 3
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 31015,
+            "completion_tokens": 769,
+            "total_tokens": 31784
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 56.092,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 72760,
+        "completion_tokens": 2273,
+        "total_tokens": 75033
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 181.19,
+      "work": {
+        "computed_candidate_scenarios": 33,
+        "reused_candidate_scenarios": 3
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:35:07.787984+00:00"
+    },
+    {
+      "id": "F06_C_r2",
+      "task_id": "F06",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8704,
+            "completion_tokens": 425,
+            "total_tokens": 9129
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.711,
+          "work": {
+            "computed_candidate_scenarios": 3,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 32818,
+            "completion_tokens": 1050,
+            "total_tokens": 33868
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 57.52,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 3
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 30866,
+            "completion_tokens": 800,
+            "total_tokens": 31666
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 34.612,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 72388,
+        "completion_tokens": 2275,
+        "total_tokens": 74663
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 127.859,
+      "work": {
+        "computed_candidate_scenarios": 33,
+        "reused_candidate_scenarios": 3
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:26:03.990128+00:00"
+    },
+    {
+      "id": "F07_C_r1",
+      "task_id": "F07",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 25399,
+            "completion_tokens": 640,
+            "total_tokens": 26039
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.685,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 37804,
+            "completion_tokens": 708,
+            "total_tokens": 38512
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.057,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 57940,
+            "completion_tokens": 1151,
+            "total_tokens": 59091
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 59.776,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 121143,
+        "completion_tokens": 2499,
+        "total_tokens": 123642
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 123.536,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:23:56.017138+00:00"
+    },
+    {
+      "id": "F07_C_r2",
+      "task_id": "F07",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 6,
+          "usage_known_responses": 6,
+          "tokens": {
+            "prompt_tokens": 39498,
+            "completion_tokens": 749,
+            "total_tokens": 40247
+          },
+          "response_models": {
+            "GLM-5.1": 6
+          },
+          "finish_reasons": {
+            "stop": 6
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 42.947,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 37350,
+            "completion_tokens": 668,
+            "total_tokens": 38018
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.878,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 42770,
+            "completion_tokens": 1074,
+            "total_tokens": 43844
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 47.766,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 119618,
+        "completion_tokens": 2491,
+        "total_tokens": 122109
+      },
+      "response_models": {
+        "GLM-5.1": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 117.606,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "format_errors": 2,
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:20:52.102881+00:00"
+    },
+    {
+      "id": "F08_C_r1",
+      "task_id": "F08",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 36361,
+            "completion_tokens": 1399,
+            "total_tokens": 37760
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 51.581,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 37604,
+            "completion_tokens": 867,
+            "total_tokens": 38471
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.997,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 57814,
+            "completion_tokens": 1776,
+            "total_tokens": 59590
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 58.492,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 131779,
+        "completion_tokens": 4042,
+        "total_tokens": 135821
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 135.088,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 2
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:17:10.571595+00:00"
+    },
+    {
+      "id": "F08_C_r2",
+      "task_id": "F08",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 25364,
+            "completion_tokens": 644,
+            "total_tokens": 26008
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 44.468,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 37924,
+            "completion_tokens": 852,
+            "total_tokens": 38776
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.988,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 43343,
+            "completion_tokens": 1499,
+            "total_tokens": 44842
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 52.529,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 106631,
+        "completion_tokens": 2995,
+        "total_tokens": 109626
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 126.0,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:19:16.659166+00:00"
+    },
+    {
+      "id": "F09_C_r1",
+      "task_id": "F09",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 9403,
+            "completion_tokens": 523,
+            "total_tokens": 9926
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.09,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22346,
+            "completion_tokens": 931,
+            "total_tokens": 23277
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 65.222,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 28096,
+            "completion_tokens": 1112,
+            "total_tokens": 29208
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 53.338,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 59845,
+        "completion_tokens": 2566,
+        "total_tokens": 62411
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 141.703,
+      "work": {
+        "computed_candidate_scenarios": 7,
+        "reused_candidate_scenarios": 8
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:37:29.606932+00:00"
+    },
+    {
+      "id": "F09_C_r2",
+      "task_id": "F09",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14117,
+            "completion_tokens": 496,
+            "total_tokens": 14613
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 34.291,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22072,
+            "completion_tokens": 943,
+            "total_tokens": 23015
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.876,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27667,
+            "completion_tokens": 967,
+            "total_tokens": 28634
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 48.995,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 63856,
+        "completion_tokens": 2406,
+        "total_tokens": 66262
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 111.175,
+      "work": {
+        "computed_candidate_scenarios": 7,
+        "reused_candidate_scenarios": 8
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:12:07.636164+00:00"
+    },
+    {
+      "id": "F10_C_r1",
+      "task_id": "F10",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 9402,
+            "completion_tokens": 460,
+            "total_tokens": 9862
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 29.59,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22005,
+            "completion_tokens": 977,
+            "total_tokens": 22982
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 57.813,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27620,
+            "completion_tokens": 900,
+            "total_tokens": 28520
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.293,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 59027,
+        "completion_tokens": 2337,
+        "total_tokens": 61364
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 117.713,
+      "work": {
+        "computed_candidate_scenarios": 7,
+        "reused_candidate_scenarios": 8
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:30:19.541046+00:00"
+    },
+    {
+      "id": "F10_C_r2",
+      "task_id": "F10",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14317,
+            "completion_tokens": 823,
+            "total_tokens": 15140
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 38.756,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 22064,
+            "completion_tokens": 1082,
+            "total_tokens": 23146
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 45.246,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27530,
+            "completion_tokens": 908,
+            "total_tokens": 28438
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 53.538,
+          "work": {
+            "computed_candidate_scenarios": 1,
+            "reused_candidate_scenarios": 4
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 63911,
+        "completion_tokens": 2813,
+        "total_tokens": 66724
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 137.563,
+      "work": {
+        "computed_candidate_scenarios": 7,
+        "reused_candidate_scenarios": 8
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:28:21.705224+00:00"
+    },
+    {
+      "id": "F11_C_r1",
+      "task_id": "F11",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14079,
+            "completion_tokens": 565,
+            "total_tokens": 14644
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.791,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 39296,
+            "completion_tokens": 1473,
+            "total_tokens": 40769
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 51.466,
+          "work": {
+            "computed_candidate_scenarios": 45,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 43843,
+            "completion_tokens": 1062,
+            "total_tokens": 44905
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 48.353,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 10
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 13,
+      "usage_known_responses": 13,
+      "tokens": {
+        "prompt_tokens": 97218,
+        "completion_tokens": 3100,
+        "total_tokens": 100318
+      },
+      "response_models": {
+        "GLM-5.1": 13
+      },
+      "finish_reasons": {
+        "stop": 13
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 130.628,
+      "work": {
+        "computed_candidate_scenarios": 50,
+        "reused_candidate_scenarios": 10
+      },
+      "counts": {
+        "format_errors": 2,
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:33:04.127517+00:00"
+    },
+    {
+      "id": "F11_C_r2",
+      "task_id": "F11",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 7,
+          "usage_known_responses": 7,
+          "tokens": {
+            "prompt_tokens": 33992,
+            "completion_tokens": 2271,
+            "total_tokens": 36263
+          },
+          "response_models": {
+            "GLM-5.1": 7
+          },
+          "finish_reasons": {
+            "stop": 7
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 93.554,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 35303,
+            "completion_tokens": 1439,
+            "total_tokens": 36742
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 41.129,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 5
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 39453,
+            "completion_tokens": 1071,
+            "total_tokens": 40524
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.607,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 270
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 14,
+      "usage_known_responses": 14,
+      "tokens": {
+        "prompt_tokens": 108748,
+        "completion_tokens": 4781,
+        "total_tokens": 113529
+      },
+      "response_models": {
+        "GLM-5.1": 14
+      },
+      "finish_reasons": {
+        "stop": 14
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 175.309,
+      "work": {
+        "computed_candidate_scenarios": 410,
+        "reused_candidate_scenarios": 275
+      },
+      "counts": {
+        "format_errors": 5,
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:23:47.485490+00:00"
+    },
+    {
+      "id": "F12_C_r1",
+      "task_id": "F12",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 9421,
+            "completion_tokens": 489,
+            "total_tokens": 9910
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 34.024,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 38099,
+            "completion_tokens": 1581,
+            "total_tokens": 39680
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 56.468,
+          "work": {
+            "computed_candidate_scenarios": 15,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 26094,
+            "completion_tokens": 707,
+            "total_tokens": 26801
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.945,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 73614,
+        "completion_tokens": 2777,
+        "total_tokens": 76391
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 114.451,
+      "work": {
+        "computed_candidate_scenarios": 25
+      },
+      "counts": {
+        "engineering_actions": 5
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-22T01:07:00.806933+00:00"
+    },
+    {
+      "id": "F12_C_r2",
+      "task_id": "F12",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 9414,
+            "completion_tokens": 546,
+            "total_tokens": 9960
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.915,
+          "work": {
+            "computed_candidate_scenarios": 5,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 38810,
+            "completion_tokens": 1347,
+            "total_tokens": 40157
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 51.808,
+          "work": {
+            "computed_candidate_scenarios": 25,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 35594,
+            "completion_tokens": 1241,
+            "total_tokens": 36835
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 45.099,
+          "work": {
+            "computed_candidate_scenarios": 10,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 83818,
+        "completion_tokens": 3134,
+        "total_tokens": 86952
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 117.84,
+      "work": {
+        "computed_candidate_scenarios": 40
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:28:15.102275+00:00"
+    }
+  ]
+}

@@ -1,0 +1,1710 @@
+{
+  "label": "C_spec_retained",
+  "updated_at": "2026-10-22T01:04:35.810511+00:00",
+  "completed_runs": 12,
+  "C": {
+    "runs": 12,
+    "all_stages_valid": 11,
+    "all_stages_preferred": 11,
+    "mean_requests": 11.666666666666666,
+    "reported_tokens": 1441767,
+    "infrastructure_errors": 0,
+    "by_category": {
+      "T1": [
+        0,
+        0
+      ],
+      "T2": [
+        11,
+        12
+      ],
+      "T3": [
+        0,
+        0
+      ]
+    }
+  },
+  "rows": [
+    {
+      "id": "S01_C_r1",
+      "task_id": "S01",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12037562762262065,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 19777,
+            "completion_tokens": 744,
+            "total_tokens": 20521
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.915,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.17313400917627492,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29917,
+            "completion_tokens": 1033,
+            "total_tokens": 30950
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 41.213,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.17313400917627492,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 34964,
+            "completion_tokens": 1051,
+            "total_tokens": 36015
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.808,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 84658,
+        "completion_tokens": 2828,
+        "total_tokens": 87486
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 82.953,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:12:59.761142+00:00"
+    },
+    {
+      "id": "S01_C_r2",
+      "task_id": "S01",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12037562762262065,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 19788,
+            "completion_tokens": 867,
+            "total_tokens": 20655
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.114,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.17313400917627492,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 30802,
+            "completion_tokens": 1095,
+            "total_tokens": 31897
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 32.836,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.17313400917627492,
+            "size_index": 0.8842896174863388,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 35826,
+            "completion_tokens": 1086,
+            "total_tokens": 36912
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.038,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 86416,
+        "completion_tokens": 3048,
+        "total_tokens": 89464
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 74.004,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:11:36.734570+00:00"
+    },
+    {
+      "id": "S02_C_r1",
+      "task_id": "S02",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12590611331213558,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 19501,
+            "completion_tokens": 716,
+            "total_tokens": 20217
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.43,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.22205133217517278,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 36280,
+            "completion_tokens": 1304,
+            "total_tokens": 37584
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 38.435,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.22205133217517278,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 34455,
+            "completion_tokens": 996,
+            "total_tokens": 35451
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 33.086,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 13,
+      "usage_known_responses": 13,
+      "tokens": {
+        "prompt_tokens": 90236,
+        "completion_tokens": 3016,
+        "total_tokens": 93252
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 13
+      },
+      "finish_reasons": {
+        "stop": 13
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 92.969,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:17:53.858000+00:00"
+    },
+    {
+      "id": "S02_C_r2",
+      "task_id": "S02",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12590611331213558,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 19568,
+            "completion_tokens": 717,
+            "total_tokens": 20285
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.198,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.22205133217517278,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29364,
+            "completion_tokens": 1039,
+            "total_tokens": 30403
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.569,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.22205133217517278,
+            "size_index": 0.789612676056338,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 34595,
+            "completion_tokens": 1046,
+            "total_tokens": 35641
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.581,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 83527,
+        "completion_tokens": 2802,
+        "total_tokens": 86329
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 67.366,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:15:22.192257+00:00"
+    },
+    {
+      "id": "S03_C_r1",
+      "task_id": "S03",
+      "method": "C",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.0016188447573563822,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 19582,
+            "completion_tokens": 718,
+            "total_tokens": 20300
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.835,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06152171407191508,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29855,
+            "completion_tokens": 1093,
+            "total_tokens": 30948
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.35,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06152171407191508,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 35652,
+            "completion_tokens": 1109,
+            "total_tokens": 36761
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.829,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 85089,
+        "completion_tokens": 2920,
+        "total_tokens": 88009
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 80.027,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:01:12.523708+00:00"
+    },
+    {
+      "id": "S03_C_r2",
+      "task_id": "S03",
+      "method": "C",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.0016188447573563822,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 14911,
+            "completion_tokens": 748,
+            "total_tokens": 15659
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.894,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06152171407191508,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 30534,
+            "completion_tokens": 1175,
+            "total_tokens": 31709
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 33.145,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06152171407191508,
+            "size_index": 0.7936507936507937,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 36337,
+            "completion_tokens": 1220,
+            "total_tokens": 37557
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 150.851,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 81782,
+        "completion_tokens": 3143,
+        "total_tokens": 84925
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 204.907,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:07:22.178483+00:00"
+    },
+    {
+      "id": "S04_C_r1",
+      "task_id": "S04",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27007,
+            "completion_tokens": 587,
+            "total_tokens": 27594
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.493,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56191,
+            "completion_tokens": 1333,
+            "total_tokens": 57524
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.099,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 63442,
+            "completion_tokens": 1350,
+            "total_tokens": 64792
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.959,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 146640,
+        "completion_tokens": 3270,
+        "total_tokens": 149910
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 63.571,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:10:22.661052+00:00"
+    },
+    {
+      "id": "S04_C_r2",
+      "task_id": "S04",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27117,
+            "completion_tokens": 629,
+            "total_tokens": 27746
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.839,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56337,
+            "completion_tokens": 1376,
+            "total_tokens": 57713
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.988,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.050969857947012746,
+            "size_index": 0.6600590805021185,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 63860,
+            "completion_tokens": 1464,
+            "total_tokens": 65324
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.122,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 147314,
+        "completion_tokens": 3469,
+        "total_tokens": 150783
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 62.965,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:03:57.196133+00:00"
+    },
+    {
+      "id": "S05_C_r1",
+      "task_id": "S05",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1232026200872469,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 31989,
+            "completion_tokens": 709,
+            "total_tokens": 32698
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.502,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.155406961659642,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56356,
+            "completion_tokens": 1333,
+            "total_tokens": 57689
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 32.284,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.155406961659642,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 63575,
+            "completion_tokens": 1350,
+            "total_tokens": 64925
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 45.765,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 151920,
+        "completion_tokens": 3392,
+        "total_tokens": 155312
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 101.57,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:02:54.158584+00:00"
+    },
+    {
+      "id": "S05_C_r2",
+      "task_id": "S05",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1232026200872469,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 32058,
+            "completion_tokens": 768,
+            "total_tokens": 32826
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 48.098,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.155406961659642,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56726,
+            "completion_tokens": 1546,
+            "total_tokens": 58272
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 42.387,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.155406961659642,
+            "size_index": 0.5622947454844006,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 64657,
+            "completion_tokens": 1629,
+            "total_tokens": 66286
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.266,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 153441,
+        "completion_tokens": 3943,
+        "total_tokens": 157384
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 116.77,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:09:19.020428+00:00"
+    },
+    {
+      "id": "S06_C_r1",
+      "task_id": "S06",
+      "method": "C",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27018,
+            "completion_tokens": 581,
+            "total_tokens": 27599
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.205,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56289,
+            "completion_tokens": 1375,
+            "total_tokens": 57664
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.496,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": false,
+          "preferred": false,
+          "input_consistent": false,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 63481,
+            "completion_tokens": 985,
+            "total_tokens": 64466
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.822,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        }
+      ],
+      "all_stages_valid": false,
+      "all_stages_preferred": false,
+      "stage_valid_rate": 0.6666666666666666,
+      "preference_rate": 0.6666666666666666,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 146788,
+        "completion_tokens": 2941,
+        "total_tokens": 149729
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 58.541,
+      "work": {
+        "computed_candidate_scenarios": 486,
+        "reused_candidate_scenarios": 729
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:16:20.809280+00:00"
+    },
+    {
+      "id": "S06_C_r2",
+      "task_id": "S06",
+      "method": "C",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 27027,
+            "completion_tokens": 578,
+            "total_tokens": 27605
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.268,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 56086,
+            "completion_tokens": 1269,
+            "total_tokens": 57355
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.637,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.03704938915744828,
+            "size_index": 0.6669131697430183,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 62935,
+            "completion_tokens": 1289,
+            "total_tokens": 64224
+          },
+          "response_models": {
+            "DeepSeek-V4.1-Flash": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.985,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 146048,
+        "completion_tokens": 3136,
+        "total_tokens": 149184
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 74.909,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T17:14:14.748344+00:00"
+    }
+  ]
+}

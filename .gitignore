@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.repro/
+.env
+.env.*
+models.toml
+**/models.toml
+*.pem
+*.key
+new_runs/
+prototype/runs/
+**/QA/
+**/audit_scratch/
+**/offline_tests.json
+*.lock

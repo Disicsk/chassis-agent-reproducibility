@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using these materials."
+type: software
+title: "Chassis Agent: Reproducible LLM-Assisted Combine Harvester Chassis Design"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Yongxin
+  - family-names: Yu
+    given-names: Liangyao
+  - family-names: Leng
+    given-names: Jiatong
+  - family-names: Jin
+    given-names: Zhipeng
+  - family-names: You
+    given-names: Weijie
+repository-code: "https://github.com/Disicsk/chassis-agent-reproducibility"
+abstract: "Code, frozen protocols, recorded model interactions and offline reproduction tools for the v3-v5 experiments."

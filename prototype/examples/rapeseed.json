@@ -1,0 +1,43 @@
+{
+  "case_id": "B_rapeseed_dual_stream_demo_v1",
+  "title": "油菜收获机直行/转向双功率流底盘示范算例",
+  "design_family": "dual_power_stream",
+  "requirements": {
+    "crop": "rapeseed", "working_mass_kg": 4300, "engine_rated_power_kw": 110,
+    "travel_shaft_power_budget_kw": 30, "header_width_m": 2.7, "feed_capacity_reference_kg_s": 6,
+    "drive_sprocket_effective_radius_m": 0.25, "track_center_distance_m": 1.5,
+    "track_contact_length_m": 2, "track_width_m": 0.5, "pump_speed_rpm": 2500,
+    "required_turn_modes": ["continuous_radius", "counterrotation_pivot"],
+    "configuration_preference": "common_suns_opposing_rings_carrier_outputs",
+    "load_factor": 1.15, "gravity_m_s2": 9.81
+  },
+  "planetary": {
+    "sun_teeth": 30, "ring_teeth": 90, "planet_teeth": 30,
+    "drive_input_reduction": 1, "steer_input_reduction": 8, "final_reduction": 3.9
+  },
+  "efficiencies": {
+    "pump_volumetric": 0.92, "pump_mechanical": 0.9,
+    "motor_volumetric": 0.92, "motor_mechanical": 0.9, "mechanical_reduction": 0.95
+  },
+  "design_limits": {
+    "working_pressure_limit_mpa": 28, "motor_speed_limit_rpm": 3000, "pump_speed_limit_rpm": 3000
+  },
+  "scenarios": [
+    {"id": "work_flat", "label": "平地作业", "speed_m_s": 1, "slope_deg": 0, "resistance_coefficient": 0.08, "adhesion_coefficient": 0.55, "acceleration_m_s2": 0, "yaw_rate_rad_s": 0, "turn_resistance_moment_nm": 0},
+    {"id": "transfer_flat", "label": "平地转场", "speed_m_s": 1.8, "slope_deg": 0, "resistance_coefficient": 0.04, "adhesion_coefficient": 0.65, "acceleration_m_s2": 0, "yaw_rate_rad_s": 0, "turn_resistance_moment_nm": 0},
+    {"id": "climb", "label": "坡地直行", "speed_m_s": 0.6, "slope_deg": 12, "resistance_coefficient": 0.08, "adhesion_coefficient": 0.55, "acceleration_m_s2": 0, "yaw_rate_rad_s": 0, "turn_resistance_moment_nm": 0},
+    {"id": "gentle_turn", "label": "缓弯转向", "speed_m_s": 0.8, "slope_deg": 0, "resistance_coefficient": 0.08, "adhesion_coefficient": 0.65, "acceleration_m_s2": 0, "yaw_rate_rad_s": 0.2, "turn_resistance_moment_nm": 1000},
+    {"id": "pivot", "label": "原地转向", "speed_m_s": 0, "slope_deg": 0, "resistance_coefficient": 0, "adhesion_coefficient": 0.65, "acceleration_m_s2": 0, "yaw_rate_rad_s": 0.4, "turn_resistance_moment_nm": 9000}
+  ],
+  "illustrative_catalog": {
+    "status": "generic_displacement_classes_not_manufacturer_models",
+    "drive": {"pump_displacements_ml_rev": [35, 45, 52.5], "motor_displacements_ml_rev": [55, 63, 80], "pump_count": 1, "motor_count": 1},
+    "steering": {"pump_displacements_ml_rev": [10, 16, 25], "motor_displacements_ml_rev": [20, 32, 40], "pump_count": 1, "motor_count": 1}
+  },
+  "parameter_provenance": {
+    "source_reference_or_rounded": ["engine_rated_power_kw", "header_width_m", "feed_capacity_reference_kg_s", "track_width_m"],
+    "adapted_reference_with_assumed_meaning": {"working_mass_kg": "4300 kg 参考多作物PPT第7页量级；算例定义为工作质量，未核实原样机质量口径"},
+    "author_assumptions": ["travel_shaft_power_budget_kw", "drive_sprocket_effective_radius_m", "track_center_distance_m", "track_contact_length_m", "pump_speed_rpm", "load_factor", "gravity_m_s2", "planetary", "efficiencies", "design_limits", "scenarios", "illustrative_catalog"],
+    "notes": "拓扑参考项目技术报告1.3.2节，齿数及分段速比均为示范设定。直行等效速比15.6参考表3.3量级，未复原实物变速箱或转向速比34.2。转向阻力矩为名义假设，计算时再乘1.15；原地转向阻力矩包含滚阻。候选表不是厂商产品目录。"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-10-21T11:26:34.526666+00:00",
+  "label": "B_glm_formal",
+  "runs": 48,
+  "files": {
+    "02_实验与验证/Skill增强对照试验_v4_20261020/chassis-design-skill/references/decision-contract.md": "a5b8319d3efbdc4e38d0b443428e82e0e2977c5469259215f56308be8f16cc98",
+    "02_实验与验证/Skill增强对照试验_v4_20261020/chassis-design-skill/SKILL.md": "cfda0df9e92c4260950a89ea9600a0ef15df4cbd0ce7d220313e6fa796274708",
+    "02_实验与验证/Skill增强对照试验_v4_20261020/prompts/A_fixed.txt": "54a6aa098b08ead8031a5f761b9eea35d3b5f6289676a1c18e02f84f10a7dc4f",
+    "02_实验与验证/Skill增强对照试验_v4_20261020/prompts/B_agent.txt": "2ccf270bb183a817cd056639f70f01dd9265710164997983cc9491285200d1d1",
+    "02_实验与验证/Skill增强对照试验_v4_20261020/prompts/common.txt": "17c92cddb270ee3faf1bdada5f4ecb4632975f694da91558f6d40458df5348d9",
+    "02_实验与验证/补充对照试验_v5_20261021/v5实验方案.md": "a2a9bbea0a141bfa987c19869558de058ca6605ba6f7379438656a2fdf48197d",
+    "prototype/__init__.py": "9a454be6e1d32cd1d907a9e69fbcabd08fd0b1411a34204e7d0a295ffb672b06",
+    "prototype/__main__.py": "672517cabf5af6306931e3db45dfb190d4d2c74497bd45c8e96ec88a20169b3f",
+    "prototype/api.py": "16a812c0ea1347055dfb37edeac1187763e98c2956ed1af6c2c5ba839a8036b9",
+    "prototype/chassis_skill_v4/__init__.py": "97ecb3a909de9322b3fd59ed82f1c4f99962705a7406a1b51e23dedc46e9bf1a",
+    "prototype/chassis_skill_v4/__main__.py": "acdc12399c70a1a7bc716c6b3886460a3f00f450d1e2b59d6fc0a964e754c5e8",
+    "prototype/chassis_skill_v4/audit.py": "35dd6969af41233586948c2b3df1173dfae5761b147e3dd5e65e657f48aa5f18",
+    "prototype/chassis_skill_v4/decision.py": "8271e5d12f9b481fdc2ce5010233cd1b1264cebe8daaba57018da9fa55ad524c",
+    "prototype/chassis_skill_v4/evaluate.py": "e5fbc5c15565901c669c1b229964526f52711a703ba1604a8ba7b4de3cd1404b",
+    "prototype/chassis_skill_v4/reference_metrics.py": "97aa10cc8e3cb6908ae35887095f5f3df76567fd048408f00008ab50f48dea0d",
+    "prototype/chassis_skill_v4/runtime.py": "8ef3d3de58c10e668e066a104676d1fa73d9ba20ccd02233c0fea19cf8accb5d",
+    "prototype/chassis_skill_v4/study.py": "17db52365968ed075cc50e11ef0f577f0f6873bd6fb57ead6a9e55287616edc3",
+    "prototype/chassis_skill_v4/tasks.py": "0e6f54c74017585189286bb26dffb20b3bcba3b9e177e060f18348c4ae0fcbd1",
+    "prototype/chassis_skill_v4/test_decision.py": "554b4e0d3590dd18742f3a07622cf75cd3ac5d5408b20a64d313f08bd86ffa27",
+    "prototype/chassis_skill_v4/test_runtime.py": "a7fcf34a79c5745c51eedc9a8db555376b16b2deb7d176d4883cc34727853624",
+    "prototype/chassis_skill_v5/__init__.py": "75ab13559d8cf693352bafabb6a4f5e785241d92df1510cd37d52113fed9c229",
+    "prototype/chassis_skill_v5/__main__.py": "f8c642be9688151492944f20cf8afedf611ec313077ca3f6b017632197258a9b",
+    "prototype/chassis_skill_v5/study.py": "9ffb7a2bae8ded2e295367a2af09da8a2af0ff2c660f7d6dc97efe28a405fb56",
+    "prototype/chassis_skill_v5/test_v5.py": "a7f08a9c1cdcea451da49f800f69cf5c79a126a811049a8d4a143b69832f18a6",
+    "prototype/chat_api.py": "ab99a200af163c32e1b0457ba7695a2e660222ee57927dbbe31a1aff9a6783ce",
+    "prototype/cli.py": "9731f46ac062266387f67cbced6b5ce7ca0751c79fc0867b84dace452ca90d23",
+    "prototype/dual_power.py": "99bab2c4e2bc7484e12ab4aeb646bb88b0dfc0f6dce65a7261c685a27c3efad6",
+    "prototype/engineering.py": "0b8ed57d3b248738b4c68bfeda19912d2ae91f08e24b70ab528fd6fc49ee705f",
+    "prototype/experiment.py": "eca21f1b5a01b365e5f55621069d54f8f97ccc5da384fe0cb493e659df6f35f8",
+    "prototype/process_comparison/__init__.py": "88a9e63bd95191253f80557bc0bb3c55372fcbcb4e7191d165de24ef2777c57e",
+    "prototype/process_comparison/engineering_spec.txt": "be222b09d944f0563952e41381d7d180cb5c4e1e45369a9a3635876712b91f24",
+    "prototype/process_comparison/evaluate.py": "dc260e4615d25d99e5099612e12634af95710fcd5a9c09ca1c97b83e23aff027",
+    "prototype/process_comparison/reference.py": "89414b3179c22f3d7f60b946e5ea98bec24a22217bc47d473fb29acaaeb335a9",
+    "prototype/process_comparison/runtime.py": "b01feac7aca1f128ab9cacad5715e3d0abdb570a7d6b8ed59b0bfcab36687f77",
+    "prototype/process_comparison/study.py": "8848a09f4a14fbb173c5cd27cbb0e054e78c27e14f659420db3d0cd06ca4ba4a",
+    "prototype/process_comparison/tasks.py": "7769eb145b59d5468a6aa7997419cccc7f1785656ed2c4e9218ecf6bd697bf8f",
+    "prototype/process_comparison/test_study.py": "2e898ba9b7db5004cd895cda9a85fc56ec350bc47f27888609915911169f7607",
+    "prototype/process_comparison/util.py": "683fc97ba197638c365485e254dee0abd0f2f624323475511957889f4a544aae",
+    "prototype/reporting.py": "92f2c60ff6604631cb431aaca8ae6a71ad62b34c7177dcb683450e2bf4f6738f",
+    "prototype/workflow.py": "8ef11251b3a7172ecc761ec38d2d430c8d4e4aba06c8d2a70ad79613b5dd74d8"
+  },
+  "artifacts": {
+    "tasks.json": "fd76877e59c6f0806b39892ee7408b73099bea8e8cc2def149e3c2fed81f7f86",
+    "prompts.json": "bd22114ec4a3459b97dd6d4d527192361ddf149418470e5f1f83aef4a7e9b88c",
+    "schedule.json": "0f0776dcc5202930b3278fb9f8be190896442065375c8b32d3514be2f9aa6960"
+  },
+  "task_source": "02_实验与验证/Skill增强对照试验运行_v4_20261020/private/tasks_formal.json",
+  "model_settings": {
+    "provider": "paratera",
+    "model": "GLM-5.1",
+    "base_url": "https://llmapi.paratera.com",
+    "api_mode": "chat_completions",
+    "structured_output_mode": null,
+    "allowed_response_models": [
+      "GLM-5.1"
+    ],
+    "max_output_tokens": 4096,
+    "timeout_sec": 600,
+    "retries": 0
+  },
+  "budget": {
+    "requests_per_stage": 24,
+    "stages": 3,
+    "questions_per_stage": 2,
+    "max_tokens_per_request": 4096,
+    "network_retries_per_request": 1
+  },
+  "methods": [
+    "A",
+    "B"
+  ],
+  "freeze_id": "da838fb3d2d020f6d929eeabe4cb1a954e2524daf533cce8c6f3ad561f26dca5"
+}

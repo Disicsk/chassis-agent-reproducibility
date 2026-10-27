@@ -1,0 +1,434 @@
+[
+  {
+    "id": "F02_R1_M0",
+    "task_id": "F02",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F02_R1_M1",
+    "task_id": "F02",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F02_R1_M2",
+    "task_id": "F02",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F08_R1_M2",
+    "task_id": "F08",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F08_R1_M1",
+    "task_id": "F08",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F08_R1_M0",
+    "task_id": "F08",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F05_R2_M0",
+    "task_id": "F05",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F05_R2_M1",
+    "task_id": "F05",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F05_R2_M2",
+    "task_id": "F05",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F11_R2_M1",
+    "task_id": "F11",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F11_R2_M0",
+    "task_id": "F11",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F11_R2_M2",
+    "task_id": "F11",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F03_R1_M2",
+    "task_id": "F03",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F03_R1_M0",
+    "task_id": "F03",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F03_R1_M1",
+    "task_id": "F03",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F05_R1_M0",
+    "task_id": "F05",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F05_R1_M2",
+    "task_id": "F05",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F05_R1_M1",
+    "task_id": "F05",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F06_R1_M1",
+    "task_id": "F06",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F06_R1_M0",
+    "task_id": "F06",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F06_R1_M2",
+    "task_id": "F06",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F07_R1_M0",
+    "task_id": "F07",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F07_R1_M1",
+    "task_id": "F07",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F07_R1_M2",
+    "task_id": "F07",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F12_R2_M2",
+    "task_id": "F12",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F12_R2_M0",
+    "task_id": "F12",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F12_R2_M1",
+    "task_id": "F12",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F04_R1_M1",
+    "task_id": "F04",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F04_R1_M2",
+    "task_id": "F04",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F04_R1_M0",
+    "task_id": "F04",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F01_R1_M1",
+    "task_id": "F01",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F01_R1_M2",
+    "task_id": "F01",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F01_R1_M0",
+    "task_id": "F01",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F09_R2_M0",
+    "task_id": "F09",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F09_R2_M1",
+    "task_id": "F09",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F09_R2_M2",
+    "task_id": "F09",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F12_R1_M0",
+    "task_id": "F12",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F12_R1_M1",
+    "task_id": "F12",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F12_R1_M2",
+    "task_id": "F12",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F06_R2_M1",
+    "task_id": "F06",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F06_R2_M0",
+    "task_id": "F06",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F06_R2_M2",
+    "task_id": "F06",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F01_R2_M1",
+    "task_id": "F01",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F01_R2_M0",
+    "task_id": "F01",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F01_R2_M2",
+    "task_id": "F01",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F07_R2_M1",
+    "task_id": "F07",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F07_R2_M2",
+    "task_id": "F07",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F07_R2_M0",
+    "task_id": "F07",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F03_R2_M2",
+    "task_id": "F03",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F03_R2_M0",
+    "task_id": "F03",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F03_R2_M1",
+    "task_id": "F03",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F04_R2_M1",
+    "task_id": "F04",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F04_R2_M2",
+    "task_id": "F04",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F04_R2_M0",
+    "task_id": "F04",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F11_R1_M2",
+    "task_id": "F11",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F11_R1_M0",
+    "task_id": "F11",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F11_R1_M1",
+    "task_id": "F11",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F10_R1_M1",
+    "task_id": "F10",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F10_R1_M2",
+    "task_id": "F10",
+    "repeat": 1,
+    "method": "M2"
+  },
+  {
+    "id": "F10_R1_M0",
+    "task_id": "F10",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F10_R2_M0",
+    "task_id": "F10",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F10_R2_M1",
+    "task_id": "F10",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F10_R2_M2",
+    "task_id": "F10",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F08_R2_M1",
+    "task_id": "F08",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F08_R2_M2",
+    "task_id": "F08",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F08_R2_M0",
+    "task_id": "F08",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F02_R2_M0",
+    "task_id": "F02",
+    "repeat": 2,
+    "method": "M0"
+  },
+  {
+    "id": "F02_R2_M2",
+    "task_id": "F02",
+    "repeat": 2,
+    "method": "M2"
+  },
+  {
+    "id": "F02_R2_M1",
+    "task_id": "F02",
+    "repeat": 2,
+    "method": "M1"
+  },
+  {
+    "id": "F09_R1_M0",
+    "task_id": "F09",
+    "repeat": 1,
+    "method": "M0"
+  },
+  {
+    "id": "F09_R1_M1",
+    "task_id": "F09",
+    "repeat": 1,
+    "method": "M1"
+  },
+  {
+    "id": "F09_R1_M2",
+    "task_id": "F09",
+    "repeat": 1,
+    "method": "M2"
+  }
+]

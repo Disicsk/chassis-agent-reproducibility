@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-10-20T06:03:38.833548+00:00",
+  "suite": "formal",
+  "label": "formal",
+  "runs": 72,
+  "files": {
+    "prototype\\__init__.py": "9a454be6e1d32cd1d907a9e69fbcabd08fd0b1411a34204e7d0a295ffb672b06",
+    "prototype\\__main__.py": "672517cabf5af6306931e3db45dfb190d4d2c74497bd45c8e96ec88a20169b3f",
+    "prototype\\api.py": "16a812c0ea1347055dfb37edeac1187763e98c2956ed1af6c2c5ba839a8036b9",
+    "prototype\\chat_api.py": "ab99a200af163c32e1b0457ba7695a2e660222ee57927dbbe31a1aff9a6783ce",
+    "prototype\\cli.py": "9731f46ac062266387f67cbced6b5ce7ca0751c79fc0867b84dace452ca90d23",
+    "prototype\\dual_power.py": "99bab2c4e2bc7484e12ab4aeb646bb88b0dfc0f6dce65a7261c685a27c3efad6",
+    "prototype\\engineering.py": "0b8ed57d3b248738b4c68bfeda19912d2ae91f08e24b70ab528fd6fc49ee705f",
+    "prototype\\experiment.py": "eca21f1b5a01b365e5f55621069d54f8f97ccc5da384fe0cb493e659df6f35f8",
+    "prototype\\process_comparison\\__init__.py": "88a9e63bd95191253f80557bc0bb3c55372fcbcb4e7191d165de24ef2777c57e",
+    "prototype\\process_comparison\\engineering_spec.txt": "be222b09d944f0563952e41381d7d180cb5c4e1e45369a9a3635876712b91f24",
+    "prototype\\process_comparison\\evaluate.py": "dc260e4615d25d99e5099612e12634af95710fcd5a9c09ca1c97b83e23aff027",
+    "prototype\\process_comparison\\reference.py": "89414b3179c22f3d7f60b946e5ea98bec24a22217bc47d473fb29acaaeb335a9",
+    "prototype\\process_comparison\\runtime.py": "b01feac7aca1f128ab9cacad5715e3d0abdb570a7d6b8ed59b0bfcab36687f77",
+    "prototype\\process_comparison\\study.py": "8848a09f4a14fbb173c5cd27cbb0e054e78c27e14f659420db3d0cd06ca4ba4a",
+    "prototype\\process_comparison\\tasks.py": "7769eb145b59d5468a6aa7997419cccc7f1785656ed2c4e9218ecf6bd697bf8f",
+    "prototype\\process_comparison\\test_study.py": "2e898ba9b7db5004cd895cda9a85fc56ec350bc47f27888609915911169f7607",
+    "prototype\\process_comparison\\util.py": "683fc97ba197638c365485e254dee0abd0f2f624323475511957889f4a544aae",
+    "prototype\\reporting.py": "92f2c60ff6604631cb431aaca8ae6a71ad62b34c7177dcb683450e2bf4f6738f",
+    "prototype\\workflow.py": "8ef11251b3a7172ecc761ec38d2d430c8d4e4aba06c8d2a70ad79613b5dd74d8"
+  },
+  "artifacts": {
+    "tasks.json": "0731754111a43f2658d9f831993a0a55c935b269e57db91a42d1434f780df7f0",
+    "prompts.json": "2beca07ba52e7d5084704ef459ac9b93b47eea9d9b9c8542d82aeb6fc7851535",
+    "schedule.json": "16ddadc5c1e40c07c6ff0a268c5f198af830887ae1a1ca0570c953c1c9ac0abc"
+  },
+  "model_settings": {
+    "provider": "paratera",
+    "model": "DeepSeek-V4.1-Flash",
+    "base_url": "https://llmapi.paratera.com",
+    "api_mode": "chat_completions",
+    "structured_output_mode": "json_object",
+    "allowed_response_models": [
+      "DeepSeek-V4.1-Flash"
+    ],
+    "max_output_tokens": 4096,
+    "timeout_sec": 180,
+    "retries": 1
+  },
+  "request_settings": {
+    "temperature": 0.2,
+    "thinking": "disabled",
+    "max_tokens": 4096,
+    "timeout_sec": 180,
+    "max_requests": 36,
+    "max_questions": 3,
+    "network_retries_per_request": 1
+  },
+  "unit": "12 tasks formal; two independent design sessions per method/task",
+  "policy": "no changes based on formal outcomes; never feed private reference to a method",
+  "freeze_id": "65f43c4d1c3727215aeadf7d591fca9d96333fca0f9b36ad794422cf3b0d200f"
+}

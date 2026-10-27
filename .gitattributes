@@ -1,0 +1,3 @@
+# Preserve historical source and evidence byte hashes, including original CRLFs.
+* -text
+*.zip binary

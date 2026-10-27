@@ -1,0 +1,163 @@
+{
+  "created_at": "2026-10-21T12:27:57.650040+00:00",
+  "A_new_tasks_only": {
+    "tasks": 6,
+    "mean_difference_pp": 50.0,
+    "bootstrap95_pp": [
+      16.7,
+      83.3
+    ],
+    "tasks_favoring_B": 3,
+    "tasks_favoring_A": 0,
+    "ties": 3,
+    "exact_sign_test_two_sided_p": 0.25,
+    "per_task": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.0,
+      "S04": 1.0,
+      "S05": 1.0,
+      "S06": 1.0
+    }
+  },
+  "A_combined_T2_v4_plus_new": {
+    "tasks": 10,
+    "mean_difference_pp": 55.0,
+    "bootstrap95_pp": [
+      25.0,
+      85.0
+    ],
+    "tasks_favoring_B": 6,
+    "tasks_favoring_A": 0,
+    "ties": 4,
+    "exact_sign_test_two_sided_p": 0.0312,
+    "per_task": {
+      "F03": 1.0,
+      "F04": 0.0,
+      "F09": 1.0,
+      "F10": 0.5,
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.0,
+      "S04": 1.0,
+      "S05": 1.0,
+      "S06": 1.0
+    }
+  },
+  "A_counts": {
+    "A": {
+      "new": [
+        6,
+        12
+      ],
+      "v4_T2": [
+        2,
+        8
+      ]
+    },
+    "B": {
+      "new": [
+        12,
+        12
+      ],
+      "v4_T2": [
+        7,
+        8
+      ]
+    }
+  },
+  "B_glm_all": {
+    "tasks": 12,
+    "mean_difference_pp": 0.0,
+    "bootstrap95_pp": [
+      0.0,
+      0.0
+    ],
+    "tasks_favoring_B": 0,
+    "tasks_favoring_A": 0,
+    "ties": 12,
+    "exact_sign_test_two_sided_p": 1.0,
+    "per_task": {
+      "F01": 0.0,
+      "F02": 0.0,
+      "F03": 0.0,
+      "F04": 0.0,
+      "F05": 0.0,
+      "F06": 0.0,
+      "F07": 0.0,
+      "F08": 0.0,
+      "F09": 0.0,
+      "F10": 0.0,
+      "F11": 0.0,
+      "F12": 0.0
+    }
+  },
+  "B_glm_T2": {
+    "tasks": 4,
+    "mean_difference_pp": 0.0,
+    "bootstrap95_pp": [
+      0.0,
+      0.0
+    ],
+    "tasks_favoring_B": 0,
+    "tasks_favoring_A": 0,
+    "ties": 4,
+    "exact_sign_test_two_sided_p": 1.0,
+    "per_task": {
+      "F03": 0.0,
+      "F04": 0.0,
+      "F09": 0.0,
+      "F10": 0.0
+    }
+  },
+  "B_glm_counts": {
+    "A": {
+      "valid": 24,
+      "runs": 24,
+      "mean_requests": 6.62,
+      "by_category": {
+        "T1": [
+          8,
+          8
+        ],
+        "T2": [
+          8,
+          8
+        ],
+        "T3": [
+          8,
+          8
+        ]
+      }
+    },
+    "B": {
+      "valid": 24,
+      "runs": 24,
+      "mean_requests": 10.38,
+      "by_category": {
+        "T1": [
+          8,
+          8
+        ],
+        "T2": [
+          8,
+          8
+        ],
+        "T3": [
+          8,
+          8
+        ]
+      }
+    }
+  },
+  "v4_deepseek_reference": {
+    "A": {
+      "valid": 18,
+      "runs": 24
+    },
+    "B": {
+      "valid": 23,
+      "runs": 24
+    }
+  }
+}

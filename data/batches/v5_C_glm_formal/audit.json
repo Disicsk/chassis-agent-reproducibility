@@ -1,0 +1,232 @@
+{
+  "status": "passed",
+  "label": "C_glm_formal",
+  "runs": 24,
+  "expected_runs": 24,
+  "requests": 237,
+  "freeze_id": "806ab53e2a15c3c25fa83ee047486025ab7a3b61bd2665b48896555725d6fe0e",
+  "coverage": "saved local requests, outputs, tool/review events, states and independent numerical scoring",
+  "not_verified": [
+    "provider internals",
+    "full prose semantic correctness",
+    "human engineering approval"
+  ],
+  "rows": [
+    {
+      "id": "F07_C_r2",
+      "requests": 12,
+      "replayed_actions": 12,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F11_C_r2",
+      "requests": 14,
+      "replayed_actions": 14,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F05_C_r2",
+      "requests": 10,
+      "replayed_actions": 10,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F12_C_r2",
+      "requests": 11,
+      "replayed_actions": 11,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F04_C_r2",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F03_C_r1",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F11_C_r1",
+      "requests": 13,
+      "replayed_actions": 13,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F12_C_r1",
+      "requests": 10,
+      "replayed_actions": 10,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F03_C_r2",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F02_C_r1",
+      "requests": 10,
+      "replayed_actions": 10,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F09_C_r2",
+      "requests": 9,
+      "replayed_actions": 9,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F01_C_r1",
+      "requests": 11,
+      "replayed_actions": 11,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F08_C_r1",
+      "requests": 11,
+      "replayed_actions": 11,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F08_C_r2",
+      "requests": 9,
+      "replayed_actions": 9,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F01_C_r2",
+      "requests": 10,
+      "replayed_actions": 10,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F04_C_r1",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F07_C_r1",
+      "requests": 10,
+      "replayed_actions": 10,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F06_C_r2",
+      "requests": 11,
+      "replayed_actions": 11,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F10_C_r2",
+      "requests": 9,
+      "replayed_actions": 9,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F10_C_r1",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F02_C_r2",
+      "requests": 9,
+      "replayed_actions": 9,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F06_C_r1",
+      "requests": 11,
+      "replayed_actions": 11,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F09_C_r1",
+      "requests": 8,
+      "replayed_actions": 8,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    },
+    {
+      "id": "F05_C_r1",
+      "requests": 9,
+      "replayed_actions": 9,
+      "current_stage_inputs_only": true,
+      "scores_recomputed": true,
+      "tools_replayed": true,
+      "credential_in_logs": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "D02_B_r1",
+    "task_id": "D02",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "D02_A_r1",
+    "task_id": "D02",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D03_B_r1",
+    "task_id": "D03",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "D03_A_r1",
+    "task_id": "D03",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D01_B_r1",
+    "task_id": "D01",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "D01_A_r1",
+    "task_id": "D01",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D06_B_r1",
+    "task_id": "D06",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "D06_A_r1",
+    "task_id": "D06",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D05_A_r1",
+    "task_id": "D05",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D05_B_r1",
+    "task_id": "D05",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "D04_A_r1",
+    "task_id": "D04",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "D04_B_r1",
+    "task_id": "D04",
+    "method": "B",
+    "repeat": 1
+  }
+]

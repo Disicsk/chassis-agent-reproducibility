@@ -1,0 +1,107 @@
+{
+  "case_id": "A_rice_wheat_demo_v1",
+  "title": "稻麦收获机 HST 底盘示范算例",
+  "requirements": {
+    "crop": "rice_wheat",
+    "working_mass_kg": 4500,
+    "engine_rated_power_kw": 118,
+    "travel_shaft_power_budget_kw": 30,
+    "header_width_m": 2.8,
+    "feed_capacity_reference_kg_s": 8,
+    "drive_sprocket_effective_radius_m": 0.25,
+    "track_center_distance_m": 1.5,
+    "track_contact_length_m": 2.0,
+    "track_width_m": 0.5,
+    "fixed_reduction_ratio": 27.5,
+    "pump_speed_rpm": 2500,
+    "required_turn_modes": [
+      "continuous_radius",
+      "counterrotation_pivot"
+    ],
+    "configuration_preference": "independent_modular_left_right_drive",
+    "load_factor": 1.15,
+    "gravity_m_s2": 9.81
+  },
+  "efficiencies": {
+    "pump_volumetric": 0.92,
+    "pump_mechanical": 0.9,
+    "motor_volumetric": 0.92,
+    "motor_mechanical": 0.9,
+    "mechanical_reduction": 0.95
+  },
+  "design_limits": {
+    "working_pressure_limit_mpa": 28,
+    "motor_speed_limit_rpm": 3000,
+    "pump_speed_limit_rpm": 3000
+  },
+  "scenarios": [
+    {
+      "id": "work_flat",
+      "label": "平地作业",
+      "speed_m_s": 1.0,
+      "slope_deg": 0,
+      "resistance_coefficient": 0.08,
+      "adhesion_coefficient": 0.55,
+      "acceleration_m_s2": 0
+    },
+    {
+      "id": "transfer_flat",
+      "label": "平地转场",
+      "speed_m_s": 1.8,
+      "slope_deg": 0,
+      "resistance_coefficient": 0.04,
+      "adhesion_coefficient": 0.65,
+      "acceleration_m_s2": 0
+    },
+    {
+      "id": "climb",
+      "label": "坡地直行",
+      "speed_m_s": 0.6,
+      "slope_deg": 10,
+      "resistance_coefficient": 0.08,
+      "adhesion_coefficient": 0.55,
+      "acceleration_m_s2": 0
+    }
+  ],
+  "illustrative_catalog": {
+    "status": "generic_displacement_classes_not_manufacturer_models",
+    "pump_displacements_ml_rev": [
+      45,
+      56,
+      63
+    ],
+    "motor_displacements_ml_rev": [
+      55,
+      63
+    ],
+    "pump_count_for_independent_drive": 2,
+    "motor_count_for_independent_drive": 2,
+    "ranking_rule": "filter_by_modeled_constraints_then_minimize_pump_displacement_then_motor_displacement"
+  },
+  "parameter_provenance": {
+    "source_reference_or_rounded": [
+      "engine_rated_power_kw",
+      "header_width_m",
+      "feed_capacity_reference_kg_s",
+      "track_width_m",
+      "fixed_reduction_ratio"
+    ],
+    "adapted_reference_with_assumed_meaning": {
+      "working_mass_kg": "4500 kg 取自资料量级；在算例中人为定义为工作质量，不声称原样机质量口径已核实"
+    },
+    "author_assumptions": [
+      "travel_shaft_power_budget_kw",
+      "drive_sprocket_effective_radius_m",
+      "track_center_distance_m",
+      "track_contact_length_m",
+      "pump_speed_rpm",
+      "load_factor",
+      "efficiencies",
+      "design_limits",
+      "scenarios",
+      "illustrative_catalog",
+      "engineer_revision"
+    ],
+    "notes": "候选排量 56、63、55 mL/r 参考既有量级，但整张候选表及其共同边界是算例设定，不是任何厂商产品目录。动力预算独立给定，未通过喂入量推算作业功率。"
+  }
+}

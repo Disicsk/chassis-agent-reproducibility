@@ -1,0 +1,13 @@
+﻿id,task_id,repeat,method,family,category,all_stages_valid,all_stages_preferred,preference_rate,model_requests,wall_time_s,infrastructure_error
+S01_C_r1,S01,1,C,independent_hst,T2,True,True,1.0,12,82.953,False
+S01_C_r2,S01,2,C,independent_hst,T2,True,True,1.0,12,74.004,False
+S02_C_r1,S02,1,C,independent_hst,T2,True,True,1.0,13,92.969,False
+S02_C_r2,S02,2,C,independent_hst,T2,True,True,1.0,12,67.366,False
+S03_C_r1,S03,1,C,independent_hst,T2,True,True,1.0,12,80.027,False
+S03_C_r2,S03,2,C,independent_hst,T2,True,True,1.0,11,204.907,False
+S04_C_r1,S04,1,C,dual_power_stream,T2,True,True,1.0,11,63.571,False
+S04_C_r2,S04,2,C,dual_power_stream,T2,True,True,1.0,11,62.965,False
+S05_C_r1,S05,1,C,dual_power_stream,T2,True,True,1.0,12,101.57,False
+S05_C_r2,S05,2,C,dual_power_stream,T2,True,True,1.0,12,116.77,False
+S06_C_r1,S06,1,C,dual_power_stream,T2,False,False,0.6666666666666666,11,58.541,False
+S06_C_r2,S06,2,C,dual_power_stream,T2,True,True,1.0,11,74.909,False

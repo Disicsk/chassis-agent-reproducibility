@@ -1,0 +1,2952 @@
+{
+  "label": "formal",
+  "updated_at": "2026-10-20T06:55:17.490520+00:00",
+  "completed_runs": 72,
+  "methods": {
+    "M0": {
+      "runs": 24,
+      "valid_designs": 21,
+      "valid_rate": 0.875,
+      "by_category": {
+        "S1": {
+          "runs": 8,
+          "valid": 5
+        },
+        "S2": {
+          "runs": 8,
+          "valid": 8
+        },
+        "S3": {
+          "runs": 8,
+          "valid": 8
+        }
+      },
+      "mean_requirement_coverage": 1.0,
+      "total_requests": 124,
+      "total_reported_tokens": 929182,
+      "usage_known_responses": 124,
+      "mean_requests": 5.166666666666667,
+      "mean_wall_time_s": 44.266666666666666,
+      "mean_questions": 0.4166666666666667,
+      "repeated_confirmation_fields": 0,
+      "candidate_scenario_calculations": 0,
+      "schema_errors": 1,
+      "common_success_runs": 21,
+      "common_success_mean_requests": 5.238095238095238
+    },
+    "M1": {
+      "runs": 24,
+      "valid_designs": 23,
+      "valid_rate": 0.9583333333333334,
+      "by_category": {
+        "S1": {
+          "runs": 8,
+          "valid": 7
+        },
+        "S2": {
+          "runs": 8,
+          "valid": 8
+        },
+        "S3": {
+          "runs": 8,
+          "valid": 8
+        }
+      },
+      "mean_requirement_coverage": 0.9977272727272727,
+      "total_requests": 123,
+      "total_reported_tokens": 1088737,
+      "usage_known_responses": 123,
+      "mean_requests": 5.125,
+      "mean_wall_time_s": 31.29475,
+      "mean_questions": 0.7083333333333334,
+      "repeated_confirmation_fields": 0,
+      "candidate_scenario_calculations": 4671,
+      "schema_errors": 0,
+      "common_success_runs": 21,
+      "common_success_mean_requests": 3.619047619047619
+    },
+    "M2": {
+      "runs": 24,
+      "valid_designs": 24,
+      "valid_rate": 1,
+      "by_category": {
+        "S1": {
+          "runs": 8,
+          "valid": 8
+        },
+        "S2": {
+          "runs": 8,
+          "valid": 8
+        },
+        "S3": {
+          "runs": 8,
+          "valid": 8
+        }
+      },
+      "mean_requirement_coverage": 1.0,
+      "total_requests": 220,
+      "total_reported_tokens": 1701718,
+      "usage_known_responses": 220,
+      "mean_requests": 9.166666666666666,
+      "mean_wall_time_s": 49.60375,
+      "mean_questions": 0.3333333333333333,
+      "repeated_confirmation_fields": 0,
+      "candidate_scenario_calculations": 5076,
+      "schema_errors": 0,
+      "common_success_runs": 21,
+      "common_success_mean_requests": 9.047619047619047
+    }
+  },
+  "contrasts": {
+    "M2-M0": {
+      "task_count": 12,
+      "difference": 0.125,
+      "task_cluster_bootstrap_95": [
+        0,
+        0.3333333333333333
+      ],
+      "interpretation": "exploratory, task-level resampling; repeated sessions not independent tasks"
+    },
+    "M2-M1": {
+      "task_count": 12,
+      "difference": 0.041666666666666664,
+      "task_cluster_bootstrap_95": [
+        0,
+        0.125
+      ],
+      "interpretation": "exploratory, task-level resampling; repeated sessions not independent tasks"
+    }
+  },
+  "rows": [
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 30776,
+        "completion_tokens": 3679,
+        "total_tokens": 34455
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 33.555,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:27:44.128924+00:00"
+    },
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 20456,
+        "completion_tokens": 1368,
+        "total_tokens": 21824
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 31.059,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:26:31.982369+00:00"
+    },
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 52354,
+        "completion_tokens": 1536,
+        "total_tokens": 53890
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 36.49,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:27:09.320485+00:00"
+    },
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 27714,
+        "completion_tokens": 3876,
+        "total_tokens": 31590
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 43.219,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:34:28.770450+00:00"
+    },
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "no_change_updates": 2,
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 29469,
+        "completion_tokens": 1737,
+        "total_tokens": 31206
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 35.668,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:33:44.605834+00:00"
+    },
+    {
+      "task_id": "F01",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 51951,
+        "completion_tokens": 1402,
+        "total_tokens": 53353
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 64.688,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F01_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:35:34.425652+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "no_change_updates": 1,
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 39330,
+        "completion_tokens": 4118,
+        "total_tokens": 43448
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 46.45,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:04:44.485089+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 20436,
+        "completion_tokens": 1250,
+        "total_tokens": 21686
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 21.06,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:05:05.711007+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 52548,
+        "completion_tokens": 1563,
+        "total_tokens": 54111
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 58.778,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:06:04.621946+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 37439,
+        "completion_tokens": 4838,
+        "total_tokens": 42277
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 48.76,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:51:57.954284+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 21322,
+        "completion_tokens": 1792,
+        "total_tokens": 23114
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 19.684,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:53:03.044366+00:00"
+    },
+    {
+      "task_id": "F02",
+      "family": "independent_hst",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 52029,
+        "completion_tokens": 1345,
+        "total_tokens": 53374
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 43.122,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F02_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:52:41.915746+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 40614,
+        "completion_tokens": 4620,
+        "total_tokens": 45234
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 44.868,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:13:15.240320+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 19782,
+        "completion_tokens": 1557,
+        "total_tokens": 21339
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 40.27,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:13:56.204073+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 65283,
+        "completion_tokens": 1969,
+        "total_tokens": 67252
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 52.152,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:12:29.582973+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 31874,
+        "completion_tokens": 3733,
+        "total_tokens": 35607
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 44.194,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:39:57.699242+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 20101,
+        "completion_tokens": 1533,
+        "total_tokens": 21634
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 19.601,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:40:18.507437+00:00"
+    },
+    {
+      "task_id": "F03",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 64614,
+        "completion_tokens": 1947,
+        "total_tokens": 66561
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 55.022,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F03_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:39:11.708727+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 34934,
+        "completion_tokens": 4076,
+        "total_tokens": 39010
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 53.445,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:26:00.184896+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 24249,
+        "completion_tokens": 1538,
+        "total_tokens": 25787
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 24.107,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:24:11.589494+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 55175,
+        "completion_tokens": 1761,
+        "total_tokens": 56936
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 52.963,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:25:05.779343+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 48066,
+        "completion_tokens": 5453,
+        "total_tokens": 53519
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 58.517,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:42:33.036890+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 23969,
+        "completion_tokens": 1183,
+        "total_tokens": 25152
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 21.728,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:40:41.413218+00:00"
+    },
+    {
+      "task_id": "F04",
+      "family": "independent_hst",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 56089,
+        "completion_tokens": 1687,
+        "total_tokens": 57776
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 50.877,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F04_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:41:34.019785+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 3,
+      "usage_known_responses": 3,
+      "tokens": {
+        "prompt_tokens": 15866,
+        "completion_tokens": 2339,
+        "total_tokens": 18205
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 3
+      },
+      "finish_reasons": {
+        "stop": 3
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 17.86,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:14:14.998043+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 13913,
+        "completion_tokens": 981,
+        "total_tokens": 14894
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 17.103,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:15:12.185205+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 46899,
+        "completion_tokens": 1328,
+        "total_tokens": 48227
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 38.777,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:14:54.233793+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 26989,
+        "completion_tokens": 3886,
+        "total_tokens": 30875
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 32.856,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:08:46.078180+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 13919,
+        "completion_tokens": 799,
+        "total_tokens": 14718
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 17.577,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:09:04.859627+00:00"
+    },
+    {
+      "task_id": "F05",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 46731,
+        "completion_tokens": 1114,
+        "total_tokens": 47845
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 37.179,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F05_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:09:42.413752+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 3,
+      "usage_known_responses": 3,
+      "tokens": {
+        "prompt_tokens": 16823,
+        "completion_tokens": 2941,
+        "total_tokens": 19764
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 3
+      },
+      "finish_reasons": {
+        "stop": 3
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 33.435,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:16:00.555495+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 13899,
+        "completion_tokens": 964,
+        "total_tokens": 14863
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 12.434,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:15:25.547616+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 46880,
+        "completion_tokens": 1343,
+        "total_tokens": 48223
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 42.686,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:16:44.244768+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 3,
+      "usage_known_responses": 3,
+      "tokens": {
+        "prompt_tokens": 16363,
+        "completion_tokens": 2361,
+        "total_tokens": 18724
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 3
+      },
+      "finish_reasons": {
+        "stop": 3
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 32.027,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:32:36.908427+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 13885,
+        "completion_tokens": 711,
+        "total_tokens": 14596
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 15.34,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:32:02.044213+00:00"
+    },
+    {
+      "task_id": "F06",
+      "family": "independent_hst",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 18,
+        "candidate_scenario_constraint_checks": 18
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 47021,
+        "completion_tokens": 1400,
+        "total_tokens": 48421
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 29.52,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F06_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:33:07.618754+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": false,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": false,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 32019,
+        "completion_tokens": 3963,
+        "total_tokens": 35982
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 46.578,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:17:32.288781+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1,
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 36,
+      "usage_known_responses": 36,
+      "tokens": {
+        "prompt_tokens": 451460,
+        "completion_tokens": 13945,
+        "total_tokens": 465405
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 36
+      },
+      "finish_reasons": {
+        "stop": 36
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 233.562,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:21:27.245180+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 83894,
+        "completion_tokens": 1355,
+        "total_tokens": 85249
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 43.229,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:22:11.992042+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": false,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": false,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 32733,
+        "completion_tokens": 5792,
+        "total_tokens": 38525
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 59.238,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:38:15.461662+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 38023,
+        "completion_tokens": 1425,
+        "total_tokens": 39448
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 30.383,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:36:05.705471+00:00"
+    },
+    {
+      "task_id": "F07",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 83975,
+        "completion_tokens": 1551,
+        "total_tokens": 85526
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 68.105,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F07_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:37:14.723448+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": false,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": false,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 39466,
+        "completion_tokens": 6226,
+        "total_tokens": 45692
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 49.191,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:08:12.398993+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": false,
+      "submitted": false,
+      "candidate_feasible_for_confirmed_input": false,
+      "input_mismatch_paths": [
+        "design_family",
+        "requirements.working_mass_kg",
+        "requirements.pump_speed_rpm"
+      ],
+      "requirement_coverage": 0.9454545454545454,
+      "revision_consistent": null,
+      "question_rounds": 3,
+      "repeated_confirmation_fields": 0,
+      "terminal": "model_stopped",
+      "counts": {
+        "blocked_input_update_actions": 1,
+        "engineering_tool_calls": 1
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 26348,
+        "completion_tokens": 1121,
+        "total_tokens": 27469
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 23.862,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:07:21.732473+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 83952,
+        "completion_tokens": 1510,
+        "total_tokens": 85462
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 51.591,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:06:56.997585+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 36633,
+        "completion_tokens": 4576,
+        "total_tokens": 41209
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 37.653,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:51:08.046761+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 37673,
+        "completion_tokens": 1244,
+        "total_tokens": 38917
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 28.119,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:49:06.935429+00:00"
+    },
+    {
+      "task_id": "F08",
+      "family": "dual_power_stream",
+      "category": "S1",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 84315,
+        "completion_tokens": 1537,
+        "total_tokens": 85852
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 81.607,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F08_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:50:29.580938+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 37257,
+        "completion_tokens": 4421,
+        "total_tokens": 41678
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 61.392,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:54:05.994681+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 32448,
+        "completion_tokens": 1256,
+        "total_tokens": 33704
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 21.289,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:54:28.544658+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 86354,
+        "completion_tokens": 1574,
+        "total_tokens": 87928
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 47.287,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:55:17.104613+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 42287,
+        "completion_tokens": 5303,
+        "total_tokens": 47590
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 52.516,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:28:37.631981+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 37530,
+        "completion_tokens": 1275,
+        "total_tokens": 38805
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 28.341,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:29:06.832626+00:00"
+    },
+    {
+      "task_id": "F09",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 86493,
+        "completion_tokens": 1705,
+        "total_tokens": 88198
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 62.344,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F09_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:30:09.655989+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 46537,
+        "completion_tokens": 5269,
+        "total_tokens": 51806
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 39.734,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:45:57.257847+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 37005,
+        "completion_tokens": 1316,
+        "total_tokens": 38321
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 19.648,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:44:14.439506+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 86371,
+        "completion_tokens": 1662,
+        "total_tokens": 88033
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 60.064,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:45:15.703156+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 2,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "incomplete_submission_forms": 1
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 63607,
+        "completion_tokens": 5513,
+        "total_tokens": 69120
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 1,
+      "wall_time_s": 69.632,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:47:07.896515+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 7,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 5,
+      "usage_known_responses": 5,
+      "tokens": {
+        "prompt_tokens": 37035,
+        "completion_tokens": 1348,
+        "total_tokens": 38383
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 5
+      },
+      "finish_reasons": {
+        "stop": 5
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 27.769,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:47:36.457650+00:00"
+    },
+    {
+      "task_id": "F10",
+      "family": "dual_power_stream",
+      "category": "S2",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": null,
+      "question_rounds": 1,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 6,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 86687,
+        "completion_tokens": 1937,
+        "total_tokens": 88624
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 60.089,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F10_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:48:37.688601+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 3,
+      "usage_known_responses": 3,
+      "tokens": {
+        "prompt_tokens": 22138,
+        "completion_tokens": 2761,
+        "total_tokens": 24899
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 3
+      },
+      "finish_reasons": {
+        "stop": 3
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 23.269,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:43:34.299573+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 28821,
+        "completion_tokens": 901,
+        "total_tokens": 29722
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 18.237,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:43:53.523369+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 87020,
+        "completion_tokens": 1233,
+        "total_tokens": 88253
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 36.078,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:43:09.750887+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 37871,
+        "completion_tokens": 5321,
+        "total_tokens": 43192
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 49.665,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:10:51.822095+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 28830,
+        "completion_tokens": 847,
+        "total_tokens": 29677
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 18.019,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:10:01.342597+00:00"
+    },
+    {
+      "task_id": "F11",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 87046,
+        "completion_tokens": 1291,
+        "total_tokens": 88337
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 44.532,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F11_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:11:37.206076+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 32896,
+        "completion_tokens": 3708,
+        "total_tokens": 36604
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 41.048,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R1_M0",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:30:51.446937+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 28277,
+        "completion_tokens": 747,
+        "total_tokens": 29024
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 14.056,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R1_M1",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:31:06.703519+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 85747,
+        "completion_tokens": 1313,
+        "total_tokens": 87060
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 37.944,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R1_M2",
+      "repeat": 1,
+      "finished_at": "2026-10-20T06:31:45.847705+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M0",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {},
+      "model_requests": 4,
+      "usage_known_responses": 4,
+      "tokens": {
+        "prompt_tokens": 35366,
+        "completion_tokens": 4811,
+        "total_tokens": 40177
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 4
+      },
+      "finish_reasons": {
+        "stop": 4
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 43.298,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R2_M0",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:23:33.452691+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M1",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 2,
+      "usage_known_responses": 2,
+      "tokens": {
+        "prompt_tokens": 28265,
+        "completion_tokens": 784,
+        "total_tokens": 29049
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 2
+      },
+      "finish_reasons": {
+        "stop": 2
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 12.158,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R2_M1",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:23:46.564281+00:00"
+    },
+    {
+      "task_id": "F12",
+      "family": "dual_power_stream",
+      "category": "S3",
+      "method": "M2",
+      "valid_design": true,
+      "submitted": true,
+      "candidate_feasible_for_confirmed_input": true,
+      "input_mismatch_paths": [],
+      "requirement_coverage": 1.0,
+      "revision_consistent": true,
+      "question_rounds": 0,
+      "repeated_confirmation_fields": 0,
+      "terminal": "submitted_for_review",
+      "counts": {
+        "engineering_tool_calls": 5,
+        "candidate_scenario_calculations": 405,
+        "candidate_scenario_constraint_checks": 405
+      },
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 85927,
+        "completion_tokens": 1300,
+        "total_tokens": 87227
+      },
+      "response_models": {
+        "DeepSeek-V4.1-Flash": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "schema_errors": 0,
+      "wall_time_s": 35.366,
+      "evaluation_scope": "final choice and attached input, independent frozen engineering reference; prose correctness requires semantic audit",
+      "id": "F12_R2_M2",
+      "repeat": 2,
+      "finished_at": "2026-10-20T06:22:49.463509+00:00"
+    }
+  ],
+  "limitations": [
+    "scripted engineer replies",
+    "two modeled tracked-chassis configurations",
+    "only tasks with feasible confirmed inputs",
+    "physical validity independent of explanation quality",
+    "latency is client wall time, not isolated model reasoning time",
+    "M0 manual calculations are not counted as zero mental arithmetic work"
+  ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "F02_A_r1",
+    "task_id": "F02",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F02_B_r1",
+    "task_id": "F02",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F07_A_r2",
+    "task_id": "F07",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F07_B_r2",
+    "task_id": "F07",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F05_A_r2",
+    "task_id": "F05",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F05_B_r2",
+    "task_id": "F05",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F04_B_r1",
+    "task_id": "F04",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F04_A_r1",
+    "task_id": "F04",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F06_B_r1",
+    "task_id": "F06",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F06_A_r1",
+    "task_id": "F06",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F12_B_r1",
+    "task_id": "F12",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F12_A_r1",
+    "task_id": "F12",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F03_A_r2",
+    "task_id": "F03",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F03_B_r2",
+    "task_id": "F03",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F07_A_r1",
+    "task_id": "F07",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F07_B_r1",
+    "task_id": "F07",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F03_B_r1",
+    "task_id": "F03",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F03_A_r1",
+    "task_id": "F03",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F09_A_r2",
+    "task_id": "F09",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F09_B_r2",
+    "task_id": "F09",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F09_B_r1",
+    "task_id": "F09",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F09_A_r1",
+    "task_id": "F09",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F08_B_r2",
+    "task_id": "F08",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F08_A_r2",
+    "task_id": "F08",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F06_A_r2",
+    "task_id": "F06",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F06_B_r2",
+    "task_id": "F06",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F05_A_r1",
+    "task_id": "F05",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F05_B_r1",
+    "task_id": "F05",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F11_A_r1",
+    "task_id": "F11",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F11_B_r1",
+    "task_id": "F11",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F01_A_r2",
+    "task_id": "F01",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F01_B_r2",
+    "task_id": "F01",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F01_A_r1",
+    "task_id": "F01",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F01_B_r1",
+    "task_id": "F01",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F08_B_r1",
+    "task_id": "F08",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F08_A_r1",
+    "task_id": "F08",
+    "method": "A",
+    "repeat": 1
+  },
+  {
+    "id": "F04_A_r2",
+    "task_id": "F04",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F04_B_r2",
+    "task_id": "F04",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F02_B_r2",
+    "task_id": "F02",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F02_A_r2",
+    "task_id": "F02",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F11_B_r2",
+    "task_id": "F11",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F11_A_r2",
+    "task_id": "F11",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F10_B_r2",
+    "task_id": "F10",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F10_A_r2",
+    "task_id": "F10",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F12_B_r2",
+    "task_id": "F12",
+    "method": "B",
+    "repeat": 2
+  },
+  {
+    "id": "F12_A_r2",
+    "task_id": "F12",
+    "method": "A",
+    "repeat": 2
+  },
+  {
+    "id": "F10_B_r1",
+    "task_id": "F10",
+    "method": "B",
+    "repeat": 1
+  },
+  {
+    "id": "F10_A_r1",
+    "task_id": "F10",
+    "method": "A",
+    "repeat": 1
+  }
+]

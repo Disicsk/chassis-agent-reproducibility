@@ -1,0 +1,33 @@
+{
+  "job": "F12_C_r1",
+  "interrupted_at": "2026-10-22T01:34:08+08:00",
+  "stage_reached": 1,
+  "requests_written": 7,
+  "responses_saved": 6,
+  "observation": "request_007 written; process ended within ~1 s with no response file, no exception text in pipeline_S.log/stderr; pipeline marked needs_attention",
+  "classification": "local process interruption (not a model or service error)",
+  "handling": "record preserved unchanged here; the scheduled job is re-run once in a fresh session under the same frozen protocol; the interrupted partial session is not scored, not resumed and not merged",
+  "files_sha256": {
+    "actions.jsonl": "979224d41483d2fdd2e43bcbdd813bf8155fa498c9c620065abc0b08f638b29b",
+    "engineering_events.jsonl": "b11400cb77b9e4e0c617e0ab7c18faf1328946bb71150add73aa78da5bd2fe54",
+    "final_stage_0.json": "c57a7a9eaae51a813fb56531667e568947ebaa13b2f7e4edee08272f9b1ee1f5",
+    "input_revisions.jsonl": "6162c25f5010f3d2e2586972717abc9d58978ca723d9a74eb90b58512c05a5bc",
+    "metadata.json": "4cb6254d45b8f0c7060e64af66ce839e29463a7e25b56719761e53230bcfdbf5",
+    "request_001.json": "53fbbfea03c4d574e32163e7ea1036f4558f94068eade83640ccb71677ad9594",
+    "request_002.json": "0d81dafdae27ed502bcfbb1acd883140a45c3f05295896a0603fe176a9ae6e13",
+    "request_003.json": "be4f3066dddb6ccca37aa45b464e29274c8fcf9a913b1155964514266af5dd34",
+    "request_004.json": "8e25ef7c08a61f92ae73811ad289997624465ee1f8b657fd84377af105e5f573",
+    "request_005.json": "b5a33f8815600843c0ed96dcafe2f6ebae9267b7ef65575894ed2d35883e61b1",
+    "request_006.json": "9111277562f02dee183ce830d2cd7e3c1c1080c62b48ee9445c833df4284ba13",
+    "request_007.json": "184137f2e3c6b32e039f9f1b11de925044594333c4e86b63648728f38c47e6b8",
+    "response_001.json": "fb30f1672b27c5e5e324d3e2ae975a46383fe8c8624538d634e0c6187e3cd059",
+    "response_002.json": "d12a27f4235dcbad0586fa00658b41111cc5a2f8030edcfea7786a1036dff353",
+    "response_003.json": "9392dba1d72f2d6b2dcfa5285ab13c7231245e24ad2a0e36451f17417bf570e5",
+    "response_004.json": "c6701f46ae73bf355e4198086684fc872ed69b449aca5b5b5a15628263f8ac78",
+    "response_005.json": "a27ebd9665bd55af8801b86810bc160400e3b901f7fc91e1bafdd3e9a454ae49",
+    "response_006.json": "2ce71225d9ba8d28216ac4e7b0fc54845f0d318f57b401667bb646e027d52fcc",
+    "stage_releases.jsonl": "47795f7738f41c21f82cc96eac30527799ea4bea2b158589ed1cbc2807fa0531",
+    "state.json": "8716621737c8a5fccfcdcafb97cd8d9930e67754070c0a75de6d74bd748d2f6f",
+    "state_stage_0.json": "2f2a3b1816d63b121673d5d57ce10372d0912823a458331f639283ba1a2aa0fb"
+  }
+}

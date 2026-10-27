@@ -1,0 +1,6775 @@
+{
+  "label": "B_glm_formal",
+  "updated_at": "2026-10-21T12:27:12.488634+00:00",
+  "completed_runs": 48,
+  "methods": {
+    "A": {
+      "runs": 24,
+      "all_stages_valid": 24,
+      "all_stages_preferred": 24,
+      "mean_requests": 6.625,
+      "reported_tokens": 1386388,
+      "mean_wall_time_s": 61.18954166666666,
+      "by_category": {
+        "T1": {
+          "runs": 8,
+          "valid": 8
+        },
+        "T2": {
+          "runs": 8,
+          "valid": 8
+        },
+        "T3": {
+          "runs": 8,
+          "valid": 8
+        }
+      }
+    },
+    "B": {
+      "runs": 24,
+      "all_stages_valid": 24,
+      "all_stages_preferred": 24,
+      "mean_requests": 10.375,
+      "reported_tokens": 2163584,
+      "mean_wall_time_s": 89.21591666666667,
+      "by_category": {
+        "T1": {
+          "runs": 8,
+          "valid": 8
+        },
+        "T2": {
+          "runs": 8,
+          "valid": 8
+        },
+        "T3": {
+          "runs": 8,
+          "valid": 8
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "F01_A_r1",
+      "task_id": "F01",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7894,
+            "completion_tokens": 397,
+            "total_tokens": 8291
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.356,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 11781,
+            "completion_tokens": 527,
+            "total_tokens": 12308
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 12.614,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21597,
+            "completion_tokens": 1101,
+            "total_tokens": 22698
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.423,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 41272,
+        "completion_tokens": 2025,
+        "total_tokens": 43297
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 55.41,
+      "work": {
+        "computed_candidate_scenarios": 18,
+        "reused_candidate_scenarios": 36
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:08:59.926769+00:00"
+    },
+    {
+      "id": "F01_A_r2",
+      "task_id": "F01",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7889,
+            "completion_tokens": 350,
+            "total_tokens": 8239
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.227,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 11564,
+            "completion_tokens": 472,
+            "total_tokens": 12036
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.474,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14305,
+            "completion_tokens": 557,
+            "total_tokens": 14862
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.728,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 33758,
+        "completion_tokens": 1379,
+        "total_tokens": 35137
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 45.447,
+      "work": {
+        "computed_candidate_scenarios": 18,
+        "reused_candidate_scenarios": 36
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:07:03.340049+00:00"
+    },
+    {
+      "id": "F01_B_r1",
+      "task_id": "F01",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12386,
+            "completion_tokens": 456,
+            "total_tokens": 12842
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.533,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 17944,
+            "completion_tokens": 541,
+            "total_tokens": 18485
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.586,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21545,
+            "completion_tokens": 772,
+            "total_tokens": 22317
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.725,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 51875,
+        "completion_tokens": 1769,
+        "total_tokens": 53644
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 65.895,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:10:05.884122+00:00"
+    },
+    {
+      "id": "F01_B_r2",
+      "task_id": "F01",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10754195031350954,
+            "size_index": 0.8902985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12380,
+            "completion_tokens": 525,
+            "total_tokens": 12905
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.643,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 18227,
+            "completion_tokens": 601,
+            "total_tokens": 18828
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.007,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19678775528215867,
+            "size_index": 0.9402985074626866,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21923,
+            "completion_tokens": 634,
+            "total_tokens": 22557
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.296,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 52530,
+        "completion_tokens": 1760,
+        "total_tokens": 54290
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 60.964,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:08:04.407171+00:00"
+    },
+    {
+      "id": "F02_A_r1",
+      "task_id": "F02",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7933,
+            "completion_tokens": 396,
+            "total_tokens": 8329
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 13.219,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 11912,
+            "completion_tokens": 407,
+            "total_tokens": 12319
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 10.399,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14678,
+            "completion_tokens": 610,
+            "total_tokens": 15288
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.417,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 34523,
+        "completion_tokens": 1413,
+        "total_tokens": 35936
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 46.048,
+      "work": {
+        "computed_candidate_scenarios": 18,
+        "reused_candidate_scenarios": 36
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:27:35.271135+00:00"
+    },
+    {
+      "id": "F02_A_r2",
+      "task_id": "F02",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12535,
+            "completion_tokens": 660,
+            "total_tokens": 13195
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.011,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 11859,
+            "completion_tokens": 562,
+            "total_tokens": 12421
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.008,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14488,
+            "completion_tokens": 628,
+            "total_tokens": 15116
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.291,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 18
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 38882,
+        "completion_tokens": 1850,
+        "total_tokens": 40732
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 55.362,
+      "work": {
+        "computed_candidate_scenarios": 18,
+        "reused_candidate_scenarios": 36
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:17:13.434874+00:00"
+    },
+    {
+      "id": "F02_B_r1",
+      "task_id": "F02",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12332,
+            "completion_tokens": 558,
+            "total_tokens": 12890
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.88,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 18175,
+            "completion_tokens": 587,
+            "total_tokens": 18762
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.899,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21824,
+            "completion_tokens": 915,
+            "total_tokens": 22739
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.42,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 52331,
+        "completion_tokens": 2060,
+        "total_tokens": 54391
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 61.214,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:28:36.557013+00:00"
+    },
+    {
+      "id": "F02_B_r2",
+      "task_id": "F02",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13662416294834692,
+            "size_index": 0.8017778803971369,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 20914,
+            "completion_tokens": 857,
+            "total_tokens": 21771
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.962,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.3798286240896576,
+            "size_index": 0.9426229508196722,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 17405,
+            "completion_tokens": 385,
+            "total_tokens": 17790
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.343,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.30107670333913805,
+            "size_index": 0.8862849226506581,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20607,
+            "completion_tokens": 720,
+            "total_tokens": 21327
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.278,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 58926,
+        "completion_tokens": 1962,
+        "total_tokens": 60888
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 70.597,
+      "work": {
+        "computed_candidate_scenarios": 18
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:16:17.957189+00:00"
+    },
+    {
+      "id": "F03_A_r1",
+      "task_id": "F03",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7922,
+            "completion_tokens": 395,
+            "total_tokens": 8317
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.009,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 12261,
+            "completion_tokens": 632,
+            "total_tokens": 12893
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 12.626,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 15559,
+            "completion_tokens": 772,
+            "total_tokens": 16331
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.522,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 35742,
+        "completion_tokens": 1799,
+        "total_tokens": 37541
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 47.174,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:50:45.007581+00:00"
+    },
+    {
+      "id": "F03_A_r2",
+      "task_id": "F03",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12820,
+            "completion_tokens": 849,
+            "total_tokens": 13669
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.366,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 20283,
+            "completion_tokens": 1234,
+            "total_tokens": 21517
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.092,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 15658,
+            "completion_tokens": 731,
+            "total_tokens": 16389
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.323,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 48761,
+        "completion_tokens": 2814,
+        "total_tokens": 51575
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 90.834,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "invalid_actions": 1,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:43:38.573364+00:00"
+    },
+    {
+      "id": "F03_B_r1",
+      "task_id": "F03",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12414,
+            "completion_tokens": 484,
+            "total_tokens": 12898
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 45.078,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 25068,
+            "completion_tokens": 832,
+            "total_tokens": 25900
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.013,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 30124,
+            "completion_tokens": 912,
+            "total_tokens": 31036
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.207,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 67606,
+        "completion_tokens": 2228,
+        "total_tokens": 69834
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 103.35,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:49:57.714040+00:00"
+    },
+    {
+      "id": "F03_B_r2",
+      "task_id": "F03",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06968927034275249,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12448,
+            "completion_tokens": 541,
+            "total_tokens": 12989
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.435,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 24867,
+            "completion_tokens": 778,
+            "total_tokens": 25645
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.904,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12551779527704288,
+            "size_index": 0.8793650793650793,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29224,
+            "completion_tokens": 765,
+            "total_tokens": 29989
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.816,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 66539,
+        "completion_tokens": 2084,
+        "total_tokens": 68623
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 67.171,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:44:45.864714+00:00"
+    },
+    {
+      "id": "F04_A_r1",
+      "task_id": "F04",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 8009,
+            "completion_tokens": 570,
+            "total_tokens": 8579
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.791,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13034,
+            "completion_tokens": 788,
+            "total_tokens": 13822
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.214,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 16921,
+            "completion_tokens": 825,
+            "total_tokens": 17746
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 12.141,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 37964,
+        "completion_tokens": 2183,
+        "total_tokens": 40147
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 46.199,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:36:24.363938+00:00"
+    },
+    {
+      "id": "F04_A_r2",
+      "task_id": "F04",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12810,
+            "completion_tokens": 747,
+            "total_tokens": 13557
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.224,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13017,
+            "completion_tokens": 631,
+            "total_tokens": 13648
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.574,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 15857,
+            "completion_tokens": 622,
+            "total_tokens": 16479
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 11.276,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 41684,
+        "completion_tokens": 2000,
+        "total_tokens": 43684
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 51.09,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "invalid_actions": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:13:53.382072+00:00"
+    },
+    {
+      "id": "F04_B_r1",
+      "task_id": "F04",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12471,
+            "completion_tokens": 407,
+            "total_tokens": 12878
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.229,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 24817,
+            "completion_tokens": 767,
+            "total_tokens": 25584
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.314,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29563,
+            "completion_tokens": 852,
+            "total_tokens": 30415
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.066,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 66851,
+        "completion_tokens": 2026,
+        "total_tokens": 68877
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 79.624,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:35:38.090702+00:00"
+    },
+    {
+      "id": "F04_B_r2",
+      "task_id": "F04",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.16841924110252987,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12538,
+            "completion_tokens": 448,
+            "total_tokens": 12986
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.565,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 25083,
+            "completion_tokens": 835,
+            "total_tokens": 25918
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.075,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.25987812312438624,
+            "size_index": 0.8791395045632333,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 29335,
+            "completion_tokens": 849,
+            "total_tokens": 30184
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.094,
+          "work": {
+            "computed_candidate_scenarios": 6,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 66956,
+        "completion_tokens": 2132,
+        "total_tokens": 69088
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 73.784,
+      "work": {
+        "computed_candidate_scenarios": 30,
+        "reused_candidate_scenarios": 24
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:15:07.263787+00:00"
+    },
+    {
+      "id": "F05_A_r1",
+      "task_id": "F05",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7970,
+            "completion_tokens": 403,
+            "total_tokens": 8373
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.224,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 12272,
+            "completion_tokens": 673,
+            "total_tokens": 12945
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.852,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14991,
+            "completion_tokens": 541,
+            "total_tokens": 15532
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.55,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 35233,
+        "completion_tokens": 1617,
+        "total_tokens": 36850
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 49.676,
+      "work": {
+        "computed_candidate_scenarios": 36,
+        "reused_candidate_scenarios": 12
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:01:35.491228+00:00"
+    },
+    {
+      "id": "F05_A_r2",
+      "task_id": "F05",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12529,
+            "completion_tokens": 775,
+            "total_tokens": 13304
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 30.693,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 12473,
+            "completion_tokens": 723,
+            "total_tokens": 13196
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.517,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14837,
+            "completion_tokens": 602,
+            "total_tokens": 15439
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.414,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 39839,
+        "completion_tokens": 2100,
+        "total_tokens": 41939
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 69.64,
+      "work": {
+        "computed_candidate_scenarios": 36,
+        "reused_candidate_scenarios": 12
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:32:39.859193+00:00"
+    },
+    {
+      "id": "F05_B_r1",
+      "task_id": "F05",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12520,
+            "completion_tokens": 680,
+            "total_tokens": 13200
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.139,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 25557,
+            "completion_tokens": 844,
+            "total_tokens": 26401
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 46.067,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 28494,
+            "completion_tokens": 701,
+            "total_tokens": 29195
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.243,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 66571,
+        "completion_tokens": 2225,
+        "total_tokens": 68796
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 83.5,
+      "work": {
+        "computed_candidate_scenarios": 36,
+        "reused_candidate_scenarios": 12
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:02:59.123634+00:00"
+    },
+    {
+      "id": "F05_B_r2",
+      "task_id": "F05",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07969195383418128,
+            "size_index": 0.8786487038171056,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12546,
+            "completion_tokens": 579,
+            "total_tokens": 13125
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.003,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 25539,
+            "completion_tokens": 807,
+            "total_tokens": 26346
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 41.657,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08877157229210117,
+            "size_index": 0.9366197183098591,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21194,
+            "completion_tokens": 560,
+            "total_tokens": 21754
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.74,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 12
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 59279,
+        "completion_tokens": 1946,
+        "total_tokens": 61225
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 98.455,
+      "work": {
+        "computed_candidate_scenarios": 36,
+        "reused_candidate_scenarios": 12
+      },
+      "counts": {
+        "engineering_actions": 5
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:34:18.388788+00:00"
+    },
+    {
+      "id": "F06_A_r1",
+      "task_id": "F06",
+      "method": "A",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 17197,
+            "completion_tokens": 1070,
+            "total_tokens": 18267
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 34.835,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 12546,
+            "completion_tokens": 625,
+            "total_tokens": 13171
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 12.576,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14916,
+            "completion_tokens": 479,
+            "total_tokens": 15395
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.946,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 44659,
+        "completion_tokens": 2174,
+        "total_tokens": 46833
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 64.409,
+      "work": {
+        "computed_candidate_scenarios": 48
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 2
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:39:19.054558+00:00"
+    },
+    {
+      "id": "F06_A_r2",
+      "task_id": "F06",
+      "method": "A",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 7963,
+            "completion_tokens": 397,
+            "total_tokens": 8360
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 11.714,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 12301,
+            "completion_tokens": 603,
+            "total_tokens": 12904
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.709,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14726,
+            "completion_tokens": 447,
+            "total_tokens": 15173
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 10.205,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 34990,
+        "completion_tokens": 1447,
+        "total_tokens": 36437
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 39.647,
+      "work": {
+        "computed_candidate_scenarios": 48
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:59:24.930415+00:00"
+    },
+    {
+      "id": "F06_B_r1",
+      "task_id": "F06",
+      "method": "B",
+      "repeat": 1,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 16875,
+            "completion_tokens": 658,
+            "total_tokens": 17533
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.071,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 6,
+          "usage_known_responses": 6,
+          "tokens": {
+            "prompt_tokens": 38670,
+            "completion_tokens": 1638,
+            "total_tokens": 40308
+          },
+          "response_models": {
+            "GLM-5.1": 6
+          },
+          "finish_reasons": {
+            "stop": 6
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 58.486,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 21292,
+            "completion_tokens": 588,
+            "total_tokens": 21880
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.558,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 13,
+      "usage_known_responses": 13,
+      "tokens": {
+        "prompt_tokens": 76837,
+        "completion_tokens": 2884,
+        "total_tokens": 79721
+      },
+      "response_models": {
+        "GLM-5.1": 13
+      },
+      "finish_reasons": {
+        "stop": 13
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 110.132,
+      "work": {
+        "computed_candidate_scenarios": 48
+      },
+      "counts": {
+        "engineering_actions": 5,
+        "format_errors": 2,
+        "blocked_updates": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:38:14.570968+00:00"
+    },
+    {
+      "id": "F06_B_r2",
+      "task_id": "F06",
+      "method": "B",
+      "repeat": 2,
+      "family": "independent_hst",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.07131744079638383,
+            "size_index": 0.8727272727272728,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 12607,
+            "completion_tokens": 680,
+            "total_tokens": 13287
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.589,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 31629,
+            "completion_tokens": 1156,
+            "total_tokens": 32785
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 36.0,
+          "work": {
+            "computed_candidate_scenarios": 18,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.08593393600624322,
+            "size_index": 0.9333333333333333,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 27474,
+            "completion_tokens": 625,
+            "total_tokens": 28099
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.091,
+          "work": {
+            "computed_candidate_scenarios": 12,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 71710,
+        "completion_tokens": 2461,
+        "total_tokens": 74171
+      },
+      "response_models": {
+        "GLM-5.1": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 80.697,
+      "work": {
+        "computed_candidate_scenarios": 48
+      },
+      "counts": {
+        "engineering_actions": 6,
+        "format_errors": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:00:45.723136+00:00"
+    },
+    {
+      "id": "F07_A_r1",
+      "task_id": "F07",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23813,
+            "completion_tokens": 815,
+            "total_tokens": 24628
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.89,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35490,
+            "completion_tokens": 958,
+            "total_tokens": 36448
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.122,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 40861,
+            "completion_tokens": 1331,
+            "total_tokens": 42192
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 45.916,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 100164,
+        "completion_tokens": 3104,
+        "total_tokens": 103268
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 96.946,
+      "work": {
+        "computed_candidate_scenarios": 405,
+        "reused_candidate_scenarios": 810
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:46:22.891193+00:00"
+    },
+    {
+      "id": "F07_A_r2",
+      "task_id": "F07",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13725,
+            "completion_tokens": 353,
+            "total_tokens": 14078
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.975,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 23312,
+            "completion_tokens": 470,
+            "total_tokens": 23782
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 13.838,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 27227,
+            "completion_tokens": 1015,
+            "total_tokens": 28242
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.131,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 64264,
+        "completion_tokens": 1838,
+        "total_tokens": 66102
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 52.967,
+      "work": {
+        "computed_candidate_scenarios": 405,
+        "reused_candidate_scenarios": 810
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:29:29.593116+00:00"
+    },
+    {
+      "id": "F07_B_r1",
+      "task_id": "F07",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23377,
+            "completion_tokens": 514,
+            "total_tokens": 23891
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.833,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35375,
+            "completion_tokens": 854,
+            "total_tokens": 36229
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 46.413,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 40674,
+            "completion_tokens": 1003,
+            "total_tokens": 41677
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.005,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 99426,
+        "completion_tokens": 2371,
+        "total_tokens": 101797
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 111.306,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:48:14.277664+00:00"
+    },
+    {
+      "id": "F07_B_r2",
+      "task_id": "F07",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.01319226389028064,
+            "size_index": 0.5611538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 44017,
+            "completion_tokens": 1106,
+            "total_tokens": 45123
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 40.096,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1722584229517184,
+            "size_index": 0.7211538461538461,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 47097,
+            "completion_tokens": 916,
+            "total_tokens": 48013
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 51.706,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.1302711478355015,
+            "size_index": 0.6327327935222672,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 39659,
+            "completion_tokens": 1107,
+            "total_tokens": 40766
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.629,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 130773,
+        "completion_tokens": 3129,
+        "total_tokens": 133902
+      },
+      "response_models": {
+        "GLM-5.1": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 120.447,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4,
+        "format_errors": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:31:30.143323+00:00"
+    },
+    {
+      "id": "F08_A_r1",
+      "task_id": "F08",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13800,
+            "completion_tokens": 359,
+            "total_tokens": 14159
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 41.718,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 23541,
+            "completion_tokens": 579,
+            "total_tokens": 24120
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.384,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 27477,
+            "completion_tokens": 737,
+            "total_tokens": 28214
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.853,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 64818,
+        "completion_tokens": 1675,
+        "total_tokens": 66493
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 87.971,
+      "work": {
+        "computed_candidate_scenarios": 405,
+        "reused_candidate_scenarios": 810
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:13:02.187627+00:00"
+    },
+    {
+      "id": "F08_A_r2",
+      "task_id": "F08",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13803,
+            "completion_tokens": 479,
+            "total_tokens": 14282
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.563,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 23771,
+            "completion_tokens": 549,
+            "total_tokens": 24320
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 21.15,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 55000,
+            "completion_tokens": 1760,
+            "total_tokens": 56760
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 52.444,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 405
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 92574,
+        "completion_tokens": 2788,
+        "total_tokens": 95362
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 89.178,
+      "work": {
+        "computed_candidate_scenarios": 405,
+        "reused_candidate_scenarios": 810
+      },
+      "counts": {
+        "engineering_actions": 3,
+        "format_errors": 2
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:58:45.155992+00:00"
+    },
+    {
+      "id": "F08_B_r1",
+      "task_id": "F08",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23393,
+            "completion_tokens": 482,
+            "total_tokens": 23875
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 27.294,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35361,
+            "completion_tokens": 642,
+            "total_tokens": 36003
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.978,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 40187,
+            "completion_tokens": 1051,
+            "total_tokens": 41238
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 31.785,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 98941,
+        "completion_tokens": 2175,
+        "total_tokens": 101116
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 88.109,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:11:34.103724+00:00"
+    },
+    {
+      "id": "F08_B_r2",
+      "task_id": "F08",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T1",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06137560864922774,
+            "size_index": 0.6423235276859585,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 27441,
+            "completion_tokens": 597,
+            "total_tokens": 28038
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 32.508,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.2738804859503813,
+            "size_index": 0.8034883720930233,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35359,
+            "completion_tokens": 628,
+            "total_tokens": 35987
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.45,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.19133898591318083,
+            "size_index": 0.7171763451796507,
+            "changed_spec_positions": null
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 40335,
+            "completion_tokens": 929,
+            "total_tokens": 41264
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.137,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 10,
+      "usage_known_responses": 10,
+      "tokens": {
+        "prompt_tokens": 103135,
+        "completion_tokens": 2154,
+        "total_tokens": 105289
+      },
+      "response_models": {
+        "GLM-5.1": 10
+      },
+      "finish_reasons": {
+        "stop": 10
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 77.111,
+      "work": {
+        "computed_candidate_scenarios": 405
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:57:15.877606+00:00"
+    },
+    {
+      "id": "F09_A_r1",
+      "task_id": "F09",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13856,
+            "completion_tokens": 470,
+            "total_tokens": 14326
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.675,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 24960,
+            "completion_tokens": 953,
+            "total_tokens": 25913
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.94,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 29475,
+            "completion_tokens": 1060,
+            "total_tokens": 30535
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.922,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 68291,
+        "completion_tokens": 2483,
+        "total_tokens": 70774
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 61.555,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:55:58.641863+00:00"
+    },
+    {
+      "id": "F09_A_r2",
+      "task_id": "F09",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13872,
+            "completion_tokens": 573,
+            "total_tokens": 14445
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.96,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25192,
+            "completion_tokens": 914,
+            "total_tokens": 26106
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.274,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 29901,
+            "completion_tokens": 859,
+            "total_tokens": 30760
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.445,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 68965,
+        "completion_tokens": 2346,
+        "total_tokens": 71311
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 60.695,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:51:45.790942+00:00"
+    },
+    {
+      "id": "F09_B_r1",
+      "task_id": "F09",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23459,
+            "completion_tokens": 581,
+            "total_tokens": 24040
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 54.934,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 36812,
+            "completion_tokens": 1194,
+            "total_tokens": 38006
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.288,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 41528,
+            "completion_tokens": 1135,
+            "total_tokens": 42663
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 19.59,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 101799,
+        "completion_tokens": 2910,
+        "total_tokens": 104709
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 98.829,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:54:56.990369+00:00"
+    },
+    {
+      "id": "F09_B_r2",
+      "task_id": "F09",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23465,
+            "completion_tokens": 436,
+            "total_tokens": 23901
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 16.664,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 48957,
+            "completion_tokens": 1039,
+            "total_tokens": 49996
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.475,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.12253186658558222,
+            "size_index": 0.6414832285115304,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 67829,
+            "completion_tokens": 987,
+            "total_tokens": 68816
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 51.966,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 12,
+      "usage_known_responses": 12,
+      "tokens": {
+        "prompt_tokens": 140251,
+        "completion_tokens": 2462,
+        "total_tokens": 142713
+      },
+      "response_models": {
+        "GLM-5.1": 12
+      },
+      "finish_reasons": {
+        "stop": 12
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 92.158,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6,
+        "invalid_actions": 1
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:53:18.036658+00:00"
+    },
+    {
+      "id": "F10_A_r1",
+      "task_id": "F10",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13846,
+            "completion_tokens": 389,
+            "total_tokens": 14235
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 10.473,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 24765,
+            "completion_tokens": 821,
+            "total_tokens": 25586
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.259,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 29133,
+            "completion_tokens": 954,
+            "total_tokens": 30087
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.281,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 67744,
+        "completion_tokens": 2164,
+        "total_tokens": 69908
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 45.065,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:27:03.624303+00:00"
+    },
+    {
+      "id": "F10_A_r2",
+      "task_id": "F10",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 17716,
+            "completion_tokens": 536,
+            "total_tokens": 18252
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.683,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25020,
+            "completion_tokens": 1025,
+            "total_tokens": 26045
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.645,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 29586,
+            "completion_tokens": 1112,
+            "total_tokens": 30698
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.245,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 72322,
+        "completion_tokens": 2673,
+        "total_tokens": 74995
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 66.621,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "format_errors": 1,
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:22:07.874764+00:00"
+    },
+    {
+      "id": "F10_B_r1",
+      "task_id": "F10",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23597,
+            "completion_tokens": 679,
+            "total_tokens": 24276
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.667,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 49781,
+            "completion_tokens": 1073,
+            "total_tokens": 50854
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.442,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 55822,
+            "completion_tokens": 1098,
+            "total_tokens": 56920
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 47.077,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 129200,
+        "completion_tokens": 2850,
+        "total_tokens": 132050
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 100.238,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:26:18.410698+00:00"
+    },
+    {
+      "id": "F10_B_r2",
+      "task_id": "F10",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T2",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13277,
+            "completion_tokens": 584,
+            "total_tokens": 13861
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.508,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 36103,
+            "completion_tokens": 1128,
+            "total_tokens": 37231
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.16,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.06409363542162654,
+            "size_index": 0.5785324171952079,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 42072,
+            "completion_tokens": 1180,
+            "total_tokens": 43252
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 25.267,
+          "work": {
+            "computed_candidate_scenarios": 81,
+            "reused_candidate_scenarios": 324
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 91452,
+        "completion_tokens": 2892,
+        "total_tokens": 94344
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 64.949,
+      "work": {
+        "computed_candidate_scenarios": 567,
+        "reused_candidate_scenarios": 648
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:21:01.162619+00:00"
+    },
+    {
+      "id": "F11_A_r1",
+      "task_id": "F11",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 17979,
+            "completion_tokens": 485,
+            "total_tokens": 18464
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 22.796,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25514,
+            "completion_tokens": 1029,
+            "total_tokens": 26543
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 18.088,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 26961,
+            "completion_tokens": 516,
+            "total_tokens": 27477
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.733,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 270
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 7,
+      "usage_known_responses": 7,
+      "tokens": {
+        "prompt_tokens": 70454,
+        "completion_tokens": 2030,
+        "total_tokens": 72484
+      },
+      "response_models": {
+        "GLM-5.1": 7
+      },
+      "finish_reasons": {
+        "stop": 7
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 55.637,
+      "work": {
+        "computed_candidate_scenarios": 810,
+        "reused_candidate_scenarios": 270
+      },
+      "counts": {
+        "format_errors": 1,
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:03:54.877215+00:00"
+    },
+    {
+      "id": "F11_A_r2",
+      "task_id": "F11",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 14110,
+            "completion_tokens": 478,
+            "total_tokens": 14588
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 23.886,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25663,
+            "completion_tokens": 970,
+            "total_tokens": 26633
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.695,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 27238,
+            "completion_tokens": 660,
+            "total_tokens": 27898
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.811,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 270
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 67011,
+        "completion_tokens": 2108,
+        "total_tokens": 69119
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 65.404,
+      "work": {
+        "computed_candidate_scenarios": 810,
+        "reused_candidate_scenarios": 270
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:19:56.121976+00:00"
+    },
+    {
+      "id": "F11_B_r1",
+      "task_id": "F11",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 5,
+          "usage_known_responses": 5,
+          "tokens": {
+            "prompt_tokens": 44877,
+            "completion_tokens": 1052,
+            "total_tokens": 45929
+          },
+          "response_models": {
+            "GLM-5.1": 5
+          },
+          "finish_reasons": {
+            "stop": 5
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 63.87,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 49878,
+            "completion_tokens": 1246,
+            "total_tokens": 51124
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 37.469,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 49531,
+            "completion_tokens": 678,
+            "total_tokens": 50209
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 41.418,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 270
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 13,
+      "usage_known_responses": 13,
+      "tokens": {
+        "prompt_tokens": 144286,
+        "completion_tokens": 2976,
+        "total_tokens": 147262
+      },
+      "response_models": {
+        "GLM-5.1": 13
+      },
+      "finish_reasons": {
+        "stop": 13
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 142.774,
+      "work": {
+        "computed_candidate_scenarios": 810,
+        "reused_candidate_scenarios": 270
+      },
+      "counts": {
+        "engineering_actions": 6,
+        "format_errors": 2
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:06:17.785844+00:00"
+    },
+    {
+      "id": "F11_B_r2",
+      "task_id": "F11",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.10490551696233777,
+            "size_index": 0.7198061060831711,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13111,
+            "completion_tokens": 492,
+            "total_tokens": 13603
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 15.875,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35521,
+            "completion_tokens": 1177,
+            "total_tokens": 36698
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 32.892,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.13844473545075914,
+            "size_index": 0.7672198991866193,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 37655,
+            "completion_tokens": 932,
+            "total_tokens": 38587
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 48.26,
+          "work": {
+            "computed_candidate_scenarios": 0,
+            "reused_candidate_scenarios": 270
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 8,
+      "usage_known_responses": 8,
+      "tokens": {
+        "prompt_tokens": 86287,
+        "completion_tokens": 2601,
+        "total_tokens": 88888
+      },
+      "response_models": {
+        "GLM-5.1": 8
+      },
+      "finish_reasons": {
+        "stop": 8
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 97.082,
+      "work": {
+        "computed_candidate_scenarios": 810,
+        "reused_candidate_scenarios": 270
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:18:50.629400+00:00"
+    },
+    {
+      "id": "F12_A_r1",
+      "task_id": "F12",
+      "method": "A",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13944,
+            "completion_tokens": 555,
+            "total_tokens": 14499
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.626,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25473,
+            "completion_tokens": 1061,
+            "total_tokens": 26534
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 26.85,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 27132,
+            "completion_tokens": 585,
+            "total_tokens": 27717
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 13.412,
+          "work": {
+            "computed_candidate_scenarios": 270,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 66549,
+        "completion_tokens": 2201,
+        "total_tokens": 68750
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 68.907,
+      "work": {
+        "computed_candidate_scenarios": 1080
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:42:07.615547+00:00"
+    },
+    {
+      "id": "F12_A_r2",
+      "task_id": "F12",
+      "method": "A",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13913,
+            "completion_tokens": 383,
+            "total_tokens": 14296
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 17.308,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 25109,
+            "completion_tokens": 893,
+            "total_tokens": 26002
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 24.612,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 26820,
+            "completion_tokens": 596,
+            "total_tokens": 27416
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 14.733,
+          "work": {
+            "computed_candidate_scenarios": 270,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 6,
+      "usage_known_responses": 6,
+      "tokens": {
+        "prompt_tokens": 65842,
+        "completion_tokens": 1872,
+        "total_tokens": 67714
+      },
+      "response_models": {
+        "GLM-5.1": 6
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 56.667,
+      "work": {
+        "computed_candidate_scenarios": 1080
+      },
+      "counts": {
+        "engineering_actions": 3
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:24:38.028225+00:00"
+    },
+    {
+      "id": "F12_B_r1",
+      "task_id": "F12",
+      "method": "B",
+      "repeat": 1,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 23620,
+            "completion_tokens": 654,
+            "total_tokens": 24274
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.985,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 50122,
+            "completion_tokens": 1354,
+            "total_tokens": 51476
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 35.286,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 50528,
+            "completion_tokens": 971,
+            "total_tokens": 51499
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 28.17,
+          "work": {
+            "computed_candidate_scenarios": 270,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 11,
+      "usage_known_responses": 11,
+      "tokens": {
+        "prompt_tokens": 124270,
+        "completion_tokens": 2979,
+        "total_tokens": 127249
+      },
+      "response_models": {
+        "GLM-5.1": 11
+      },
+      "finish_reasons": {
+        "stop": 11
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 99.494,
+      "work": {
+        "computed_candidate_scenarios": 1080
+      },
+      "counts": {
+        "engineering_actions": 6
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T11:40:58.618194+00:00"
+    },
+    {
+      "id": "F12_B_r2",
+      "task_id": "F12",
+      "method": "B",
+      "repeat": 2,
+      "family": "dual_power_stream",
+      "category": "T3",
+      "stages": [
+        {
+          "stage": 0,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.5636183261183261,
+            "changed_spec_positions": 0
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 2,
+          "usage_known_responses": 2,
+          "tokens": {
+            "prompt_tokens": 13237,
+            "completion_tokens": 514,
+            "total_tokens": 13751
+          },
+          "response_models": {
+            "GLM-5.1": 2
+          },
+          "finish_reasons": {
+            "stop": 2
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 20.706,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 1,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 3,
+          "usage_known_responses": 3,
+          "tokens": {
+            "prompt_tokens": 35589,
+            "completion_tokens": 1209,
+            "total_tokens": 36798
+          },
+          "response_models": {
+            "GLM-5.1": 3
+          },
+          "finish_reasons": {
+            "stop": 3
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 33.79,
+          "work": {
+            "computed_candidate_scenarios": 405,
+            "reused_candidate_scenarios": 0
+          }
+        },
+        {
+          "stage": 2,
+          "submitted": true,
+          "valid": true,
+          "preferred": true,
+          "input_consistent": true,
+          "policy_consistent": true,
+          "physically_feasible": true,
+          "metrics": {
+            "hydraulic_margin": 0.010417458595857252,
+            "size_index": 0.6090728715728716,
+            "changed_spec_positions": 1
+          },
+          "terminal": "submitted_for_review",
+          "model_requests": 4,
+          "usage_known_responses": 4,
+          "tokens": {
+            "prompt_tokens": 49251,
+            "completion_tokens": 917,
+            "total_tokens": 50168
+          },
+          "response_models": {
+            "GLM-5.1": 4
+          },
+          "finish_reasons": {
+            "stop": 4
+          },
+          "service_error_requests": 0,
+          "wall_time_s": 38.754,
+          "work": {
+            "computed_candidate_scenarios": 270,
+            "reused_candidate_scenarios": 0
+          }
+        }
+      ],
+      "all_stages_valid": true,
+      "all_stages_preferred": true,
+      "stage_valid_rate": 1.0,
+      "preference_rate": 1.0,
+      "model_requests": 9,
+      "usage_known_responses": 9,
+      "tokens": {
+        "prompt_tokens": 98077,
+        "completion_tokens": 2640,
+        "total_tokens": 100717
+      },
+      "response_models": {
+        "GLM-5.1": 9
+      },
+      "finish_reasons": {
+        "stop": 9
+      },
+      "service_error_requests": 0,
+      "wall_time_s": 93.302,
+      "work": {
+        "computed_candidate_scenarios": 1080
+      },
+      "counts": {
+        "engineering_actions": 4
+      },
+      "infrastructure_error": false,
+      "finished_at": "2026-10-21T12:23:41.265542+00:00"
+    }
+  ]
+}
