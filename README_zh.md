@@ -25,6 +25,24 @@ python scripts/reproduce.py all
 - `replay` 使用各批次的原版源码和已记录的模型输出，重建消息、动作、工程结果、状态、审核事件和评分；不产生新模型回答。
 - 输出写入新的 `.repro/` 子目录，不修改公开证据。
 
+## 论文与仓库对照
+
+论文使用F/B/S组名及论文自身的章节、表格和附录编号；归档代码保留内部批次名（v3—v5）和组标记（M0—M2、A/B/C）。
+
+| 论文 | 仓库 |
+|---|---|
+| 4.2节、图5：直接设计 / 固定流程 / 智能体流程 | `v3_formal`，M0 / M1 / M2 组 |
+| 4.3节、表3第1行：DeepSeek，原12题 | `v4_formal`，A / B / C组 = 论文F / B / S |
+| 表3第2行：DeepSeek，新增6道T2题 | `v5_A_spec_retained`（F、B）与 `v5_C_spec_retained`（S） |
+| 表3第3行：GLM复现原12题 | `v5_B_glm_formal`（F、B）与 `v5_C_glm_formal`（S） |
+| 合并T2结果（8/20、19/20、18/20；p = 0.031） | `v4_formal` 的T2题加两个 `v5_*_spec_retained` 批次；由 `python scripts/reproduce.py summarize` 重算 |
+| 附录A、表A1（任务F03） | `v4_formal`（DeepSeek）与 `v5_B_glm_formal`（GLM）中的 `F03_A_r1`、`F03_A_r2`、`F03_B_r1`、`F03_B_r2` |
+| 论文未报告 | `v5_B_glm_dev`（GLM接口检查，12次） |
+| 双功率流构型 | `dual_power_stream` |
+| 任务类别T1 / T2 / T3 | `results.csv` 与 `tasks.json` 中的 `category` 字段 |
+
+v4、v5的运行编号为 `<任务>_<组>_r<重复>`，如 `F03_A_r1`（任务F03、A组即论文F组、第1次重复）；v3为 `<任务>_R<重复>_<组>`，如 `F01_R1_M0`。逐次结果见 `data/batches/<批次>/results.csv`，完整记录在 `data/archives/<批次>.zip` 的 `runs/<运行编号>/` 下。
+
 ## 数据范围
 
 共 252 次正式运行，另附 12 次 GLM 接口检查。正式失败一并保留。v5 的 S 组隔日补测；一次本地中断的部分会话单独保存，不计入正式成功率，其后在新会话中的重跑保留明确记录。
