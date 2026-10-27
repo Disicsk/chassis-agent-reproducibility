@@ -29,6 +29,24 @@ python scripts/reproduce.py all
 
 Outputs go to a new, ignored `.repro/` directory. These commands do not contact a model service. Replay uses recorded model responses to reconstruct tool execution; it is not a new LLM experiment.
 
+## Paper-to-repository map
+
+The paper uses the group names F/B/S and its own section, table and appendix numbers. The archived code keeps the internal batch names (v3–v5) and group labels (M0–M2, A/B/C).
+
+| Paper | Repository |
+|---|---|
+| Section 4.2, Figure 5: direct design / fixed workflow / agent workflow | `v3_formal`, groups M0 / M1 / M2 |
+| Section 4.3, Table 3 row 1: DeepSeek, original 12 tasks | `v4_formal`, groups A / B / C = paper F / B / S |
+| Table 3 row 2: DeepSeek, six new T2 tasks | `v5_A_spec_retained` (F, B) and `v5_C_spec_retained` (S) |
+| Table 3 row 3: GLM replication of the 12 tasks | `v5_B_glm_formal` (F, B) and `v5_C_glm_formal` (S) |
+| Pooled T2 result (8/20, 19/20, 18/20; p = 0.031) | T2 tasks of `v4_formal` plus both `v5_*_spec_retained` batches; recomputed by `python scripts/reproduce.py summarize` |
+| Appendix A, Table A1 (task F03) | Runs `F03_A_r1`, `F03_A_r2`, `F03_B_r1` and `F03_B_r2` in `v4_formal` (DeepSeek) and `v5_B_glm_formal` (GLM) |
+| Not reported in the paper | `v5_B_glm_dev` (GLM interface check, 12 runs) |
+| Dual-power-flow configuration | `dual_power_stream` |
+| Task categories T1 / T2 / T3 | `category` column in `results.csv` and `tasks.json` |
+
+Run identifiers are `<task>_<group>_r<repeat>` in v4 and v5, for example `F03_A_r1` (task F03, group A = paper F, first repeat), and `<task>_R<repeat>_<group>` in v3, for example `F01_R1_M0`. Per-run results are listed in `data/batches/<batch>/results.csv`; the complete records are in `data/archives/<batch>.zip` under `runs/<run id>/`.
+
 ## Included experiments
 
 | Experiment | Tasks and sessions | Results |
